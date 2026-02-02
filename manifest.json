@@ -1287,6 +1287,18 @@
       "path": "Community/pitchfork-best-tracks"
     },
     {
+      "name": "twitter-api",
+      "description": "Post, quote, reply to, and delete X (Twitter) tweets via the local X CLI script using API keys. Use when the user asks to tweet, quote tweet, reply, or delete on X/Twitter.",
+      "metadata": {
+        "author": "0.zo.computer",
+        "category": "Community",
+        "display-name": "Post to X (Twitter)",
+        "emoji": "🐦"
+      },
+      "slug": "twitter-api",
+      "path": "Community/twitter-api"
+    },
+    {
       "name": "syllabus-reminders",
       "description": "Reads your syllabus, finds all due dates, and sets up text reminders and calendar events so you never miss an assignment",
       "metadata": {
