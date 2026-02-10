@@ -10,15 +10,13 @@ If it's your own skill
 
 1. Add a new skill to the `Community` folder
 2. Run `bun validate` 
-3. Run `bun manifest`
-4. Make a pull request
+3. Make a pull request
 
 If it's a skill you found, look it up in the [Agent Skills Registry](https://skills.sh)
 
 1. Add the skill to the top of `external.yml`
 2. Run `bun sync`
-3. Run `bun manifest`
-4. Make a pull request
+3. Make a pull request
 
 ## Manual installation
 
@@ -54,7 +52,7 @@ slug="bird"; dest="Skills"; manifest_url="https://raw.githubusercontent.com/zoco
 ## Manifest
 
 - A `manifest.json` lists all the skills along with installation metadata
-- Run `bun manifest` to generate the manifest
+- `bun manifest` is run automatically on merges to main to generate the manifest
 
 # Skills
 
