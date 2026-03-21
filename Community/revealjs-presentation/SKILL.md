@@ -17,7 +17,7 @@ Build self-contained HTML slide decks using Reveal.js 5 + Chart.js 4. Every outp
 Creates a single `.html` file saved to the user's workspace. No build step, no dependencies. Open in any browser.
 
 ### 2. zo.space Page Route (on request)
-Publishes the presentation as a live page on `skeletorjs.zo.space`. Uses the pre-installed `reveal.js` package + inline styles. Use when the user says "publish", "put it on zo.space", "make it live", or "share it online".
+Publishes the presentation as a live page on the user's `<handle>.zo.space`. Uses the pre-installed `reveal.js` package + inline styles. Use when the user says "publish", "put it on zo.space", "make it live", or "share it online".
 
 The publish script at `scripts/publish.ts` handles the conversion from local HTML to a zo.space-compatible React page route. Run it via:
 ```bash
@@ -521,7 +521,7 @@ When the user wants to publish a presentation to zo.space:
 5. The route is deployed via `update_space_route`
 6. Check `get_space_errors()` after publishing
 
-The published presentation will be live at `https://skeletorjs.zo.space<route>`.
+The published presentation will be live at `https://<handle>.zo.space<route>`.
 
 ### Manual zo.space Publishing (without the script)
 

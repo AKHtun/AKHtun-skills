@@ -55,14 +55,22 @@ To import a `.zopack.md` file and deploy its routes:
    ```
    Use `--preview` first to show the user what will be deployed.
 
-2. If the user confirms, run without `--preview` to get the full JSON plan:
+2. **Security scan:** Before deploying, review the route code in the plan for risks:
+   - `fetch()` or `http`/`https` calls to external URLs (data exfiltration)
+   - `process.env` access beyond expected secrets (credential harvesting)
+   - `eval()`, `Function()`, or dynamic `import()` (arbitrary code execution)
+   - Encoded/obfuscated strings (`atob`, `Buffer.from`) hiding malicious payloads
+   - Filesystem access outside `/home/workspace/` (path traversal)
+   If any suspicious patterns are found, flag them to the user and do not proceed without explicit approval.
+
+3. If the user confirms, run without `--preview` to get the full JSON plan:
    ```bash
    bun /home/workspace/Skills/zopack/scripts/import.ts \
      --file "/path/to/pack.zopack.md" \
      --handle "<user-handle>"
    ```
 
-3. Parse the JSON output and execute the deployment in order:
+4. Parse the JSON output and execute the deployment in order:
 
    **a. Install dependencies:**
    - npm packages: `cd /__substrate/space && bun add <package>` for each
