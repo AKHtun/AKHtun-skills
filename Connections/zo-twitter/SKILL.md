@@ -8,7 +8,7 @@ metadata:
   display-name: X (Twitter)
 ---
 
-## Zo now has a native X integration- connect your X account(s) in Settings > Integrations for the ability to post send DMs from your X account. You can also use the x_search tool to search posts on X. Use this skill for everything else.
+## Zo now has a native X integration; connect your X account(s) in Settings > Integrations for the ability to post tweets and send DMs from your X account on Zo. You can also use the x_search tool to search posts on X. Use this skill for everything else.
 
 `bird`: Fast X/Twitter CLI using cookie auth.
 
