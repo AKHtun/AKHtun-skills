@@ -1,0 +1,11 @@
+{
+  "icon": "phone",
+  "tags": [
+    "voice",
+    "ai",
+    "automation"
+  ],
+  "integrations": [
+    "google_calendar"
+  ]
+}

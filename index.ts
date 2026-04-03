@@ -1059,6 +1059,18 @@ const loadSkillInfo = async (skillDir: string) => {
         compatibility: appendCompatibilityNote(normalized.compatibility, note),
       };
     }
+    // Read DISPLAY.json if present and merge display metadata
+    const displayFile = path.join(skillDir, "DISPLAY.json");
+    try {
+      const displayRaw = await readFile(displayFile, "utf-8");
+      const display = JSON.parse(displayRaw);
+      if (display && typeof display === "object") {
+        normalized.display = display;
+      }
+    } catch {
+      // No DISPLAY.json or invalid — skip
+    }
+
     return normalized;
   } catch {
     return null;
