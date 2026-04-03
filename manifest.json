@@ -3,6 +3,17 @@
   "archive_root": "skills-main",
   "skills": [
     {
+      "name": "minecraft-server",
+      "description": "Set up, configure, and manage a Minecraft Java Edition server on Zo Computer. Use when the user wants to run a Minecraft server, change server settings, manage whitelists/ops, or check server status.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "hatsunemiku.zo.computer"
+      },
+      "slug": "minecraft-server",
+      "path": "Community/minecraft-server",
+      "date_added": "2026-04-03"
+    },
+    {
       "name": "code-degunker",
       "description": "Identify and fix AI-generated code anti-patterns: incomplete implementations, TODO placeholders, over-engineering, hallucinated APIs, missing error handling, over-defensive code, security vulnerabilities, performance anti-patterns, code bloat, type workarounds, dead code, magic numbers, inconsistent patterns, and poor architecture. Use when asked to \"clean up\", \"degunk\", \"deslop\", review, audit, or harden code. Also triggers on \"is this code any good\", \"make this production-ready\", \"this feels AI-generated\", \"fix the code smell\", \"remove the slop\", or \"this code is a mess\". Covers 27 anti-patterns across architecture, logic, security, performance, completeness, style, and reliability. Supports full file review and branch diff review modes.\n",
       "compatibility": "Created for Zo Computer",
