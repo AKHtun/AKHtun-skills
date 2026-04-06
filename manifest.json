@@ -3,6 +3,116 @@
   "archive_root": "skills-add-display-json",
   "skills": [
     {
+      "name": "moonpay-auth",
+      "description": "Set up the MoonPay CLI on Zo, authenticate the current user, and create or inspect local wallets. Use when MoonPay commands fail because the user is not logged in, when a wallet is missing, or when a MoonPay flow needs login completed before continuing.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "Zo",
+        "category": "Official",
+        "display-name": "MoonPay Auth"
+      },
+      "slug": "zo-moonpay-auth",
+      "path": "Official/zo-moonpay-auth",
+      "date_added": "2026-04-04"
+    },
+    {
+      "name": "moonpay-buy-crypto",
+      "description": "Generate a MoonPay fiat-to-crypto checkout flow on Zo. Use when the user wants to buy crypto with card or bank transfer and then complete the purchase in the Zo browser.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "Zo",
+        "category": "Official",
+        "display-name": "MoonPay Buy Crypto"
+      },
+      "slug": "zo-moonpay-buy-crypto",
+      "path": "Official/zo-moonpay-buy-crypto",
+      "date_added": "2026-04-04"
+    },
+    {
+      "name": "moonpay-check-wallet",
+      "description": "Check MoonPay wallet balances, token holdings, and portfolio breakdown on Zo. Use when the user asks what is in their wallet, wants a portfolio summary, or needs balances before a MoonPay swap or buy flow.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "Zo",
+        "category": "Official",
+        "display-name": "MoonPay Wallet Check"
+      },
+      "slug": "zo-moonpay-check-wallet",
+      "path": "Official/zo-moonpay-check-wallet",
+      "date_added": "2026-04-04"
+    },
+    {
+      "name": "moonpay-swap-tokens",
+      "description": "Swap tokens or bridge assets with MoonPay on Zo. Use when the user wants to swap one token for another, bridge between supported chains, or move crypto through a MoonPay wallet workflow.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "Zo",
+        "category": "Official",
+        "display-name": "MoonPay Swap Tokens"
+      },
+      "slug": "zo-moonpay-swap-tokens",
+      "path": "Official/zo-moonpay-swap-tokens",
+      "date_added": "2026-04-04"
+    },
+    {
+      "name": "moonpay-virtual-account",
+      "description": "Set up and operate MoonPay virtual accounts on Zo for fiat onramp and offramp flows. Use when the user wants to complete KYC, register payout or deposit details, or move between fiat and supported stablecoins.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "Zo",
+        "category": "Official",
+        "display-name": "MoonPay Virtual Account"
+      },
+      "slug": "zo-moonpay-virtual-account",
+      "path": "Official/zo-moonpay-virtual-account",
+      "date_added": "2026-04-04"
+    },
+    {
+      "name": "okx-cex-market",
+      "description": "Query OKX market data on Zo, including prices, candles, order books, funding rates, open interest, instruments, and technical indicators. Use for read-only market questions and never for account or trading actions.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "Zo",
+        "category": "Official",
+        "display-name": "OKX Market Data",
+        "version": "1.2.8",
+        "homepage": "https://www.okx.com"
+      },
+      "slug": "zo-okx-cex-market",
+      "path": "Official/zo-okx-cex-market",
+      "date_added": "2026-04-04"
+    },
+    {
+      "name": "okx-cex-portfolio",
+      "description": "Inspect OKX account balances, positions, PnL, bills, fee levels, and related account state on Zo. Use when the user asks about holdings, positions, realized or unrealized PnL, transfers, or account configuration.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "Zo",
+        "category": "Official",
+        "display-name": "OKX Portfolio",
+        "version": "1.2.8",
+        "homepage": "https://www.okx.com"
+      },
+      "slug": "zo-okx-cex-portfolio",
+      "path": "Official/zo-okx-cex-portfolio",
+      "date_added": "2026-04-04"
+    },
+    {
+      "name": "okx-cex-trade",
+      "description": "Execute and manage OKX spot, perpetual, futures, and supported options trades on Zo. Use when the user wants to place, cancel, amend, or inspect tradable orders, but require explicit same-thread confirmation before any live execution.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "Zo",
+        "category": "Official",
+        "display-name": "OKX Trade",
+        "version": "1.2.8",
+        "homepage": "https://www.okx.com"
+      },
+      "slug": "zo-okx-cex-trade",
+      "path": "Official/zo-okx-cex-trade",
+      "date_added": "2026-04-04"
+    },
+    {
       "name": "minecraft-server",
       "description": "Set up, configure, and manage a Minecraft Java Edition server on Zo Computer. Use when the user wants to run a Minecraft server, change server settings, manage whitelists/ops, or check server status.",
       "compatibility": "Created for Zo Computer",
