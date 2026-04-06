@@ -1,9 +1,8 @@
 {
   "icon": "bed",
   "tags": [
-    "integration",
-    "automation",
-    "lifestyle"
+    "developer-tools",
+    "server"
   ],
   "integrations": [
     "eightsleep"

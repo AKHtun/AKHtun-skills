@@ -1,9 +1,7 @@
 {
   "icon": "trello",
   "tags": [
-    "productivity",
-    "integration",
-    "planning"
+    "productivity"
   ],
   "integrations": [
     "trello"

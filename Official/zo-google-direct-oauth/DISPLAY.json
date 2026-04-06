@@ -1,9 +1,7 @@
 {
   "icon": "key",
   "tags": [
-    "integration",
-    "infrastructure",
-    "calendar"
+    "developer-tools"
   ],
   "integrations": [
     "gmail",

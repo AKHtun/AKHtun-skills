@@ -2,8 +2,7 @@
   "icon": "zap",
   "tags": [
     "automation",
-    "infrastructure",
-    "integration"
+    "server"
   ],
   "integrations": [
     "n8n"

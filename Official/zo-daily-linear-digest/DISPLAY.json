@@ -1,9 +1,8 @@
 {
   "icon": "linear",
   "tags": [
-    "automation",
     "productivity",
-    "email"
+    "automation"
   ],
   "integrations": [
     "linear"

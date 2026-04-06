@@ -1,9 +1,7 @@
 {
   "icon": "message-circle",
   "tags": [
-    "social",
-    "automation",
-    "integration"
+    "documents"
   ],
   "integrations": [
     "moltbook"

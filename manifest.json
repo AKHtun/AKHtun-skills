@@ -13,9 +13,8 @@
         "icon": "gamepad-2",
         "image": "assets/minecraft.png",
         "tags": [
-          "gaming",
-          "server",
-          "minecraft"
+          "entertainment",
+          "server"
         ]
       },
       "slug": "minecraft-server",
@@ -33,9 +32,7 @@
       "display": {
         "icon": "bug",
         "tags": [
-          "code-quality",
-          "review",
-          "cleanup"
+          "developer-tools"
         ]
       },
       "slug": "code-degunker",
@@ -52,9 +49,7 @@
       "display": {
         "icon": "minimize-2",
         "tags": [
-          "code-quality",
-          "refactoring",
-          "cleanup"
+          "developer-tools"
         ]
       },
       "slug": "simplify",
@@ -71,9 +66,8 @@
       "display": {
         "icon": "layout",
         "tags": [
-          "visualization",
-          "documentation",
-          "content"
+          "education",
+          "media"
         ]
       },
       "slug": "visual-explainer",
@@ -93,9 +87,8 @@
       "display": {
         "icon": "bot",
         "tags": [
-          "agent",
-          "integration",
-          "framework"
+          "ai",
+          "developer-tools"
         ]
       },
       "slug": "zopenclaw",
@@ -112,9 +105,7 @@
       "display": {
         "icon": "share-2",
         "tags": [
-          "community",
-          "publishing",
-          "skills"
+          "utility"
         ]
       },
       "slug": "share-skill",
@@ -132,9 +123,7 @@
       "display": {
         "icon": "presentation",
         "tags": [
-          "presentation",
-          "slides",
-          "content"
+          "design"
         ]
       },
       "slug": "revealjs-presentation",
@@ -152,9 +141,8 @@
       "display": {
         "icon": "package",
         "tags": [
-          "sharing",
-          "deployment",
-          "packaging"
+          "developer-tools",
+          "utility"
         ]
       },
       "slug": "zopack",
@@ -172,9 +160,7 @@
       "display": {
         "icon": "plug",
         "tags": [
-          "mcp",
-          "integration",
-          "setup"
+          "developer-tools"
         ]
       },
       "slug": "mcporter-setup",
@@ -192,9 +178,8 @@
       "display": {
         "icon": "server",
         "tags": [
-          "vm",
-          "infrastructure",
-          "development"
+          "developer-tools",
+          "automation"
         ]
       },
       "slug": "exe-dev",
@@ -212,9 +197,7 @@
       "display": {
         "icon": "book-open",
         "tags": [
-          "documentation",
-          "reference",
-          "libraries"
+          "developer-tools"
         ]
       },
       "slug": "context7",
@@ -232,9 +215,7 @@
       "display": {
         "icon": "pause",
         "tags": [
-          "workflow",
-          "continuity",
-          "automation"
+          "productivity"
         ]
       },
       "slug": "handoff",
@@ -259,9 +240,7 @@
       "display": {
         "icon": "pen-line",
         "tags": [
-          "writing",
-          "content",
-          "editing"
+          "content"
         ]
       },
       "slug": "humanizer",
@@ -279,9 +258,8 @@
       "display": {
         "icon": "notebook-pen",
         "tags": [
-          "reflection",
-          "continuity",
-          "personal"
+          "content",
+          "wellness"
         ]
       },
       "slug": "journal",
@@ -300,8 +278,7 @@
         "icon": "bar-chart-3",
         "tags": [
           "research",
-          "data",
-          "analytics"
+          "marketing"
         ]
       },
       "slug": "market-research",
@@ -319,9 +296,8 @@
       "display": {
         "icon": "bell",
         "tags": [
-          "productivity",
-          "automation",
-          "scheduling"
+          "wellness",
+          "automation"
         ],
         "integrations": [
           "google_calendar",
@@ -344,8 +320,7 @@
         "icon": "sun",
         "tags": [
           "productivity",
-          "automation",
-          "scheduling"
+          "automation"
         ],
         "integrations": [
           "gmail",
@@ -368,9 +343,7 @@
       "display": {
         "icon": "sparkles",
         "tags": [
-          "reflection",
-          "automation",
-          "meta"
+          "ai"
         ]
       },
       "slug": "self-improvement",
@@ -388,9 +361,8 @@
       "display": {
         "icon": "search",
         "tags": [
-          "seo",
-          "analytics",
-          "research"
+          "marketing",
+          "data"
         ]
       },
       "slug": "seo-data",
@@ -409,9 +381,8 @@
         "icon": "brain",
         "image": "assets/supermemory.png",
         "tags": [
-          "memory",
-          "knowledge",
-          "persistence"
+          "ai",
+          "data"
         ]
       },
       "slug": "supermemory",
@@ -429,9 +400,8 @@
       "display": {
         "icon": "globe",
         "tags": [
-          "scraping",
           "data",
-          "automation"
+          "web"
         ]
       },
       "slug": "web-scraper",
@@ -450,8 +420,7 @@
         "icon": "database",
         "tags": [
           "data",
-          "datasets",
-          "analytics"
+          "utility"
         ]
       },
       "slug": "zo-dataset-creator",
@@ -470,8 +439,7 @@
       "display": {
         "icon": "rocket",
         "tags": [
-          "development",
-          "hosting",
+          "developer-tools",
           "web"
         ]
       },
@@ -491,9 +459,7 @@
       "display": {
         "icon": "clock",
         "tags": [
-          "productivity",
-          "automation",
-          "claude-code"
+          "productivity"
         ]
       },
       "slug": "claude-code-window-primer",
@@ -510,9 +476,7 @@
       "display": {
         "icon": "phone",
         "tags": [
-          "voice",
-          "ai",
-          "automation"
+          "ai"
         ],
         "integrations": [
           "google_calendar"
@@ -531,9 +495,8 @@
       "display": {
         "icon": "sparkles",
         "tags": [
-          "productivity",
-          "content",
-          "development"
+          "ai",
+          "content"
         ]
       },
       "slug": "prompt-improver",
@@ -553,9 +516,8 @@
       "display": {
         "icon": "film",
         "tags": [
-          "video",
           "social",
-          "creative"
+          "media"
         ]
       },
       "slug": "tweetscape-narrator",
@@ -573,9 +535,7 @@
       "display": {
         "icon": "share",
         "tags": [
-          "productivity",
-          "infrastructure",
-          "collaboration"
+          "utility"
         ],
         "integrations": [
           "gmail"
@@ -595,9 +555,7 @@
       "display": {
         "icon": "message-circle",
         "tags": [
-          "social",
-          "automation",
-          "integration"
+          "documents"
         ],
         "integrations": [
           "moltbook"
@@ -620,8 +578,7 @@
         "icon": "x",
         "tags": [
           "social",
-          "automation",
-          "integration"
+          "developer-tools"
         ],
         "integrations": [
           "x"
@@ -643,9 +600,8 @@
       "display": {
         "icon": "sparkles",
         "tags": [
-          "automation",
           "wellness",
-          "messaging"
+          "automation"
         ]
       },
       "slug": "daily-affirmations",
@@ -664,9 +620,7 @@
       "display": {
         "icon": "heart",
         "tags": [
-          "social",
-          "content",
-          "productivity"
+          "content"
         ]
       },
       "slug": "dating-profile",
@@ -685,9 +639,7 @@
       "display": {
         "icon": "search",
         "tags": [
-          "social",
-          "content",
-          "search"
+          "social"
         ]
       },
       "slug": "find-missed-connections",
@@ -706,9 +658,8 @@
       "display": {
         "icon": "qr-code",
         "tags": [
-          "media",
-          "productivity",
-          "design"
+          "design",
+          "utility"
         ]
       },
       "slug": "generate-custom-qr-code",
@@ -727,9 +678,8 @@
       "display": {
         "icon": "calendar",
         "tags": [
-          "calendar",
           "productivity",
-          "integration"
+          "automation"
         ],
         "integrations": [
           "google_calendar"
@@ -751,9 +701,8 @@
       "display": {
         "icon": "dna",
         "tags": [
-          "data",
-          "learning",
-          "health"
+          "research",
+          "wellness"
         ]
       },
       "slug": "personal-genomics-analysis",
@@ -772,9 +721,8 @@
       "display": {
         "icon": "spotify",
         "tags": [
-          "media",
-          "music",
-          "automation"
+          "entertainment",
+          "content"
         ],
         "integrations": [
           "spotify"
@@ -796,9 +744,7 @@
       "display": {
         "icon": "code",
         "tags": [
-          "development",
-          "productivity",
-          "planning"
+          "developer-tools"
         ]
       },
       "slug": "plan-code-changes",
@@ -817,9 +763,8 @@
       "display": {
         "icon": "leaf",
         "tags": [
-          "learning",
-          "productivity",
-          "lifestyle"
+          "automation",
+          "utility"
         ]
       },
       "slug": "plant-care-plan",
@@ -839,8 +784,7 @@
         "icon": "receipt",
         "tags": [
           "finance",
-          "automation",
-          "productivity"
+          "automation"
         ]
       },
       "slug": "receipt-tracker-setup",
@@ -859,9 +803,7 @@
       "display": {
         "icon": "shield",
         "tags": [
-          "media",
-          "privacy",
-          "productivity"
+          "utility"
         ]
       },
       "slug": "remove-photo-metadata",
@@ -880,9 +822,7 @@
       "display": {
         "icon": "globe",
         "tags": [
-          "content",
-          "automation",
-          "email"
+          "content"
         ]
       },
       "slug": "summarize-hacker-news",
@@ -901,9 +841,8 @@
       "display": {
         "icon": "calendar",
         "tags": [
-          "learning",
-          "automation",
-          "calendar"
+          "education",
+          "automation"
         ],
         "integrations": [
           "google_calendar"
@@ -926,8 +865,7 @@
         "icon": "map-pin",
         "tags": [
           "automation",
-          "productivity",
-          "messaging"
+          "utility"
         ]
       },
       "slug": "text-commute-info",
@@ -946,8 +884,7 @@
       "display": {
         "icon": "zap",
         "tags": [
-          "automation",
-          "productivity"
+          "automation"
         ]
       },
       "slug": "zo-automate-something",
@@ -967,8 +904,7 @@
         "icon": "pen-tool",
         "tags": [
           "content",
-          "design",
-          "productivity"
+          "web"
         ]
       },
       "slug": "zo-blog-site",
@@ -987,9 +923,8 @@
       "display": {
         "icon": "terminal",
         "tags": [
-          "development",
-          "infrastructure",
-          "productivity"
+          "developer-tools",
+          "server"
         ]
       },
       "slug": "zo-code-server-setup",
@@ -1008,9 +943,7 @@
       "display": {
         "icon": "globe",
         "tags": [
-          "design",
-          "development",
-          "content"
+          "web"
         ]
       },
       "slug": "zo-create-site",
@@ -1029,9 +962,7 @@
       "display": {
         "icon": "presentation",
         "tags": [
-          "content",
-          "design",
-          "productivity"
+          "design"
         ]
       },
       "slug": "zo-create-slidedeck",
@@ -1050,9 +981,8 @@
       "display": {
         "icon": "linear",
         "tags": [
-          "automation",
           "productivity",
-          "email"
+          "automation"
         ],
         "integrations": [
           "linear"
@@ -1074,9 +1004,8 @@
       "display": {
         "icon": "newspaper",
         "tags": [
-          "automation",
           "content",
-          "email"
+          "automation"
         ]
       },
       "slug": "zo-daily-news-digest",
@@ -1096,8 +1025,7 @@
         "icon": "table",
         "tags": [
           "data",
-          "automation",
-          "productivity"
+          "utility"
         ]
       },
       "slug": "zo-enrich-csv",
@@ -1116,9 +1044,8 @@
       "display": {
         "icon": "book",
         "tags": [
-          "content",
-          "productivity",
-          "documents"
+          "documents",
+          "utility"
         ]
       },
       "slug": "zo-epub-to-markdown",
@@ -1138,8 +1065,7 @@
         "icon": "scan",
         "tags": [
           "media",
-          "productivity",
-          "data"
+          "utility"
         ]
       },
       "slug": "zo-extract-text-from-image",
@@ -1159,8 +1085,7 @@
         "icon": "repeat",
         "tags": [
           "automation",
-          "data",
-          "development"
+          "data"
         ]
       },
       "slug": "zo-for-each-line",
@@ -1179,9 +1104,8 @@
       "display": {
         "icon": "file-text",
         "tags": [
-          "content",
-          "productivity",
-          "documents"
+          "documents",
+          "utility"
         ]
       },
       "slug": "zo-generate-pdf",
@@ -1200,9 +1124,7 @@
       "display": {
         "icon": "key",
         "tags": [
-          "integration",
-          "infrastructure",
-          "calendar"
+          "developer-tools"
         ],
         "integrations": [
           "gmail",
@@ -1225,9 +1147,8 @@
       "display": {
         "icon": "chart-bar",
         "tags": [
-          "data",
-          "infrastructure",
-          "monitoring"
+          "server",
+          "data"
         ],
         "integrations": [
           "grafana"
@@ -1249,9 +1170,8 @@
       "display": {
         "icon": "book",
         "tags": [
-          "design",
-          "development",
-          "content"
+          "web",
+          "social"
         ]
       },
       "slug": "zo-guestbook-site",
@@ -1270,9 +1190,8 @@
       "display": {
         "icon": "mail",
         "tags": [
-          "email",
-          "automation",
-          "productivity"
+          "communication",
+          "automation"
         ],
         "integrations": [
           "gmail"
@@ -1295,9 +1214,7 @@
       "display": {
         "icon": "linkedin",
         "tags": [
-          "social",
-          "integration",
-          "productivity"
+          "social"
         ],
         "integrations": [
           "linkedin"
@@ -1318,7 +1235,6 @@
       "display": {
         "icon": "calendar",
         "tags": [
-          "calendar",
           "productivity"
         ],
         "integrations": [
@@ -1342,8 +1258,7 @@
         "icon": "zap",
         "tags": [
           "automation",
-          "infrastructure",
-          "integration"
+          "server"
         ],
         "integrations": [
           "n8n"
@@ -1366,7 +1281,7 @@
         "icon": "folder",
         "tags": [
           "productivity",
-          "automation"
+          "utility"
         ]
       },
       "slug": "zo-organize-workspace",
@@ -1385,9 +1300,8 @@
       "display": {
         "icon": "file-text",
         "tags": [
-          "content",
-          "productivity",
-          "documents"
+          "documents",
+          "utility"
         ]
       },
       "slug": "zo-pdf-to-markdown",
@@ -1406,9 +1320,8 @@
       "display": {
         "icon": "globe",
         "tags": [
-          "design",
-          "development",
-          "content"
+          "web",
+          "design"
         ]
       },
       "slug": "zo-portfolio-site",
@@ -1427,9 +1340,8 @@
       "display": {
         "icon": "search",
         "tags": [
-          "content",
-          "learning",
-          "productivity"
+          "research",
+          "automation"
         ]
       },
       "slug": "zo-research-topic",
@@ -1449,7 +1361,7 @@
         "icon": "image",
         "tags": [
           "media",
-          "productivity"
+          "utility"
         ]
       },
       "slug": "zo-resize-image",
@@ -1468,8 +1380,8 @@
       "display": {
         "icon": "terminal",
         "tags": [
-          "infrastructure",
-          "development"
+          "developer-tools",
+          "server"
         ]
       },
       "slug": "zo-ssh-setup",
@@ -1488,9 +1400,7 @@
       "display": {
         "icon": "x",
         "tags": [
-          "social",
-          "integration",
-          "automation"
+          "social"
         ],
         "integrations": [
           "x"
@@ -1512,9 +1422,8 @@
       "display": {
         "icon": "calendar",
         "tags": [
-          "calendar",
-          "automation",
-          "email"
+          "productivity",
+          "automation"
         ],
         "integrations": [
           "google_calendar"
@@ -1535,8 +1444,7 @@
         "icon": "split",
         "tags": [
           "marketing",
-          "data",
-          "optimization"
+          "developer-tools"
         ]
       },
       "slug": "ab-test-setup",
@@ -1556,9 +1464,7 @@
       "display": {
         "icon": "book",
         "tags": [
-          "learning",
-          "productivity",
-          "flashcards"
+          "education"
         ]
       },
       "slug": "add-flashcards",
@@ -1578,7 +1484,6 @@
         "icon": "palette",
         "tags": [
           "design",
-          "development",
           "media"
         ]
       },
@@ -1596,9 +1501,8 @@
       "display": {
         "icon": "chart-bar",
         "tags": [
-          "marketing",
           "data",
-          "analytics"
+          "marketing"
         ]
       },
       "slug": "analytics-tracking",
@@ -1638,8 +1542,7 @@
         "icon": "rss",
         "tags": [
           "content",
-          "automation",
-          "productivity"
+          "automation"
         ]
       },
       "slug": "blogwatcher",
@@ -1657,9 +1560,7 @@
       "display": {
         "icon": "brain",
         "tags": [
-          "productivity",
-          "design",
-          "planning"
+          "productivity"
         ]
       },
       "slug": "brainstorming",
@@ -1678,8 +1579,7 @@
         "icon": "palette",
         "tags": [
           "design",
-          "marketing",
-          "content"
+          "marketing"
         ]
       },
       "slug": "brand-guidelines",
@@ -1698,8 +1598,7 @@
         "icon": "pen-tool",
         "tags": [
           "design",
-          "media",
-          "content"
+          "media"
         ]
       },
       "slug": "canvas-design",
@@ -1716,9 +1615,8 @@
       "display": {
         "icon": "users",
         "tags": [
-          "marketing",
-          "content",
-          "seo"
+          "research",
+          "marketing"
         ]
       },
       "slug": "competitor-alternatives",
@@ -1736,9 +1634,7 @@
       "display": {
         "icon": "file-text",
         "tags": [
-          "content",
-          "marketing",
-          "productivity"
+          "content"
         ]
       },
       "slug": "copy-editing",
@@ -1757,8 +1653,7 @@
         "icon": "pen-tool",
         "tags": [
           "content",
-          "marketing",
-          "productivity"
+          "marketing"
         ]
       },
       "slug": "copywriting",
@@ -1776,8 +1671,7 @@
         "icon": "file-text",
         "tags": [
           "content",
-          "productivity",
-          "collaboration"
+          "productivity"
         ]
       },
       "slug": "doc-coauthoring",
@@ -1816,9 +1710,8 @@
       "display": {
         "icon": "bed",
         "tags": [
-          "integration",
-          "automation",
-          "lifestyle"
+          "developer-tools",
+          "server"
         ],
         "integrations": [
           "eightsleep"
@@ -1838,7 +1731,7 @@
       "display": {
         "icon": "mail",
         "tags": [
-          "email",
+          "communication",
           "marketing",
           "automation"
         ]
@@ -1858,8 +1751,7 @@
         "icon": "layout",
         "tags": [
           "marketing",
-          "optimization",
-          "design"
+          "web"
         ]
       },
       "slug": "form-cro",
@@ -1876,9 +1768,7 @@
       "display": {
         "icon": "wrench",
         "tags": [
-          "marketing",
-          "development",
-          "planning"
+          "marketing"
         ]
       },
       "slug": "free-tool-strategy",
@@ -1897,8 +1787,7 @@
         "icon": "layout",
         "tags": [
           "design",
-          "development",
-          "content"
+          "web"
         ]
       },
       "slug": "frontend-design",
@@ -1936,9 +1825,7 @@
       "display": {
         "icon": "github",
         "tags": [
-          "development",
-          "integration",
-          "productivity"
+          "developer-tools"
         ],
         "integrations": [
           "github"
@@ -1980,9 +1867,8 @@
       "display": {
         "icon": "globe",
         "tags": [
-          "email",
-          "calendar",
-          "integration"
+          "entertainment",
+          "utility"
         ],
         "integrations": [
           "gmail",
@@ -2006,9 +1892,7 @@
       "display": {
         "icon": "book",
         "tags": [
-          "learning",
-          "productivity",
-          "infrastructure"
+          "education"
         ]
       },
       "slug": "hashcards-setup",
@@ -2026,9 +1910,8 @@
       "display": {
         "icon": "megaphone",
         "tags": [
-          "content",
-          "productivity",
-          "collaboration"
+          "communication",
+          "content"
         ]
       },
       "slug": "internal-comms",
@@ -2047,9 +1930,7 @@
       "display": {
         "icon": "scissors",
         "tags": [
-          "finance",
-          "productivity",
-          "automation"
+          "utility"
         ]
       },
       "slug": "just-fucking-cancel",
@@ -2067,8 +1948,7 @@
       "display": {
         "icon": "lastfm",
         "tags": [
-          "media",
-          "music",
+          "entertainment",
           "data"
         ],
         "integrations": [
@@ -2089,9 +1969,7 @@
       "display": {
         "icon": "rocket",
         "tags": [
-          "marketing",
-          "planning",
-          "content"
+          "marketing"
         ]
       },
       "slug": "launch-strategy",
@@ -2110,8 +1988,7 @@
         "icon": "video",
         "tags": [
           "media",
-          "learning",
-          "design"
+          "education"
         ]
       },
       "slug": "manim-composer",
@@ -2129,7 +2006,6 @@
         "icon": "lightbulb",
         "tags": [
           "marketing",
-          "planning",
           "content"
         ]
       },
@@ -2149,7 +2025,6 @@
         "icon": "brain",
         "tags": [
           "marketing",
-          "learning",
           "content"
         ]
       },
@@ -2168,9 +2043,7 @@
       "display": {
         "icon": "box",
         "tags": [
-          "development",
-          "integration",
-          "infrastructure"
+          "developer-tools"
         ]
       },
       "slug": "mcp-builder",
@@ -2209,9 +2082,7 @@
       "display": {
         "icon": "box",
         "tags": [
-          "development",
-          "integration",
-          "infrastructure"
+          "developer-tools"
         ]
       },
       "slug": "mcporter",
@@ -2229,9 +2100,8 @@
       "display": {
         "icon": "image",
         "tags": [
-          "media",
-          "social",
-          "content"
+          "content",
+          "media"
         ]
       },
       "slug": "meme-factory",
@@ -2260,9 +2130,7 @@
       "display": {
         "icon": "notion",
         "tags": [
-          "productivity",
-          "integration",
-          "content"
+          "productivity"
         ],
         "integrations": [
           "notion"
@@ -2283,8 +2151,7 @@
         "icon": "user-plus",
         "tags": [
           "marketing",
-          "optimization",
-          "design"
+          "web"
         ]
       },
       "slug": "onboarding-cro",
@@ -2302,8 +2169,7 @@
         "icon": "layout",
         "tags": [
           "marketing",
-          "optimization",
-          "design"
+          "web"
         ]
       },
       "slug": "page-cro",
@@ -2320,9 +2186,7 @@
       "display": {
         "icon": "megaphone",
         "tags": [
-          "marketing",
-          "advertising",
-          "content"
+          "marketing"
         ]
       },
       "slug": "paid-ads",
@@ -2340,7 +2204,6 @@
         "icon": "credit-card",
         "tags": [
           "marketing",
-          "optimization",
           "finance"
         ]
       },
@@ -2360,9 +2223,8 @@
       "display": {
         "icon": "file-text",
         "tags": [
-          "productivity",
-          "content",
-          "documents"
+          "documents",
+          "utility"
         ]
       },
       "slug": "pdf",
@@ -2380,8 +2242,7 @@
         "icon": "layout",
         "tags": [
           "marketing",
-          "optimization",
-          "design"
+          "web"
         ]
       },
       "slug": "popup-cro",
@@ -2399,8 +2260,7 @@
         "icon": "dollar-sign",
         "tags": [
           "marketing",
-          "finance",
-          "planning"
+          "finance"
         ]
       },
       "slug": "pricing-strategy",
@@ -2418,7 +2278,6 @@
         "icon": "search",
         "tags": [
           "marketing",
-          "seo",
           "automation"
         ]
       },
@@ -2436,9 +2295,7 @@
       "display": {
         "icon": "users",
         "tags": [
-          "marketing",
-          "automation",
-          "planning"
+          "marketing"
         ]
       },
       "slug": "referral-program",
@@ -2458,8 +2315,7 @@
         "icon": "video",
         "tags": [
           "media",
-          "development",
-          "design"
+          "developer-tools"
         ]
       },
       "slug": "remotion-best-practices",
@@ -2476,9 +2332,8 @@
       "display": {
         "icon": "code",
         "tags": [
-          "development",
-          "seo",
-          "marketing"
+          "marketing",
+          "web"
         ]
       },
       "slug": "schema-markup",
@@ -2496,9 +2351,7 @@
       "display": {
         "icon": "search",
         "tags": [
-          "marketing",
-          "seo",
-          "data"
+          "marketing"
         ]
       },
       "slug": "seo-audit",
@@ -2516,8 +2369,8 @@
       "display": {
         "icon": "link",
         "tags": [
-          "productivity",
-          "automation"
+          "utility",
+          "web"
         ]
       },
       "slug": "shorten",
@@ -2535,8 +2388,7 @@
         "icon": "user-plus",
         "tags": [
           "marketing",
-          "optimization",
-          "design"
+          "web"
         ]
       },
       "slug": "signup-flow-cro",
@@ -2554,8 +2406,7 @@
       "display": {
         "icon": "wrench",
         "tags": [
-          "development",
-          "productivity"
+          "developer-tools"
         ]
       },
       "slug": "skill-creator",
@@ -2574,9 +2425,8 @@
       "display": {
         "icon": "image",
         "tags": [
-          "media",
-          "social",
-          "design"
+          "communication",
+          "media"
         ],
         "integrations": [
           "slack"
@@ -2598,8 +2448,8 @@
         "icon": "share-2",
         "tags": [
           "social",
-          "marketing",
-          "content"
+          "content",
+          "marketing"
         ]
       },
       "slug": "social-content",
@@ -2617,9 +2467,8 @@
       "display": {
         "icon": "stripe",
         "tags": [
-          "development",
           "finance",
-          "integration"
+          "developer-tools"
         ],
         "integrations": [
           "stripe"
@@ -2639,8 +2488,7 @@
       "display": {
         "icon": "file-text",
         "tags": [
-          "development",
-          "productivity"
+          "developer-tools"
         ]
       },
       "slug": "template-skill",
@@ -2659,9 +2507,7 @@
       "display": {
         "icon": "palette",
         "tags": [
-          "design",
-          "content",
-          "productivity"
+          "design"
         ]
       },
       "slug": "theme-factory",
@@ -2678,9 +2524,8 @@
       "display": {
         "icon": "box",
         "tags": [
-          "development",
-          "design",
-          "media"
+          "media",
+          "developer-tools"
         ]
       },
       "slug": "threejs-animation",
@@ -2697,9 +2542,8 @@
       "display": {
         "icon": "box",
         "tags": [
-          "development",
-          "design",
-          "learning"
+          "media",
+          "developer-tools"
         ]
       },
       "slug": "threejs-fundamentals",
@@ -2716,8 +2560,8 @@
       "display": {
         "icon": "box",
         "tags": [
-          "development",
-          "design"
+          "media",
+          "developer-tools"
         ]
       },
       "slug": "threejs-geometry",
@@ -2734,8 +2578,8 @@
       "display": {
         "icon": "mouse-pointer",
         "tags": [
-          "development",
-          "design"
+          "media",
+          "developer-tools"
         ]
       },
       "slug": "threejs-interaction",
@@ -2752,8 +2596,8 @@
       "display": {
         "icon": "sun",
         "tags": [
-          "development",
-          "design"
+          "media",
+          "developer-tools"
         ]
       },
       "slug": "threejs-lighting",
@@ -2770,8 +2614,8 @@
       "display": {
         "icon": "download",
         "tags": [
-          "development",
-          "design"
+          "media",
+          "developer-tools"
         ]
       },
       "slug": "threejs-loaders",
@@ -2788,8 +2632,8 @@
       "display": {
         "icon": "layers",
         "tags": [
-          "development",
-          "design"
+          "media",
+          "developer-tools"
         ]
       },
       "slug": "threejs-materials",
@@ -2806,9 +2650,8 @@
       "display": {
         "icon": "sliders",
         "tags": [
-          "development",
-          "design",
-          "media"
+          "media",
+          "developer-tools"
         ]
       },
       "slug": "threejs-postprocessing",
@@ -2825,8 +2668,8 @@
       "display": {
         "icon": "code",
         "tags": [
-          "development",
-          "design"
+          "media",
+          "developer-tools"
         ]
       },
       "slug": "threejs-shaders",
@@ -2843,8 +2686,8 @@
       "display": {
         "icon": "image",
         "tags": [
-          "development",
-          "design"
+          "media",
+          "developer-tools"
         ]
       },
       "slug": "threejs-textures",
@@ -2875,9 +2718,7 @@
       "display": {
         "icon": "terminal",
         "tags": [
-          "development",
-          "infrastructure",
-          "productivity"
+          "developer-tools"
         ]
       },
       "slug": "tmux",
@@ -2909,9 +2750,7 @@
       "display": {
         "icon": "trello",
         "tags": [
-          "productivity",
-          "integration",
-          "planning"
+          "productivity"
         ],
         "integrations": [
           "trello"
@@ -2954,7 +2793,7 @@
         "icon": "film",
         "tags": [
           "media",
-          "productivity"
+          "utility"
         ]
       },
       "slug": "video-frames",
@@ -2982,8 +2821,7 @@
       "display": {
         "icon": "cloud",
         "tags": [
-          "data",
-          "productivity"
+          "utility"
         ]
       },
       "slug": "weather",
@@ -3001,9 +2839,8 @@
       "display": {
         "icon": "layout",
         "tags": [
-          "development",
-          "design",
-          "content"
+          "developer-tools",
+          "web"
         ]
       },
       "slug": "web-artifacts-builder",
@@ -3021,9 +2858,7 @@
       "display": {
         "icon": "check-circle",
         "tags": [
-          "development",
-          "testing",
-          "infrastructure"
+          "developer-tools"
         ]
       },
       "slug": "webapp-testing",

@@ -1,9 +1,8 @@
 {
   "icon": "image",
   "tags": [
-    "media",
-    "social",
-    "design"
+    "communication",
+    "media"
   ],
   "integrations": [
     "slack"

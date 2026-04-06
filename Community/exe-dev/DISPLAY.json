@@ -1,8 +1,7 @@
 {
   "icon": "server",
   "tags": [
-    "vm",
-    "infrastructure",
-    "development"
+    "developer-tools",
+    "automation"
   ]
 }

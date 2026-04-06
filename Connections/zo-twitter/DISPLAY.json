@@ -1,9 +1,7 @@
 {
   "icon": "x",
   "tags": [
-    "social",
-    "integration",
-    "automation"
+    "social"
   ],
   "integrations": [
     "x"

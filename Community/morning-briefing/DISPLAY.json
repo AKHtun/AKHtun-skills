@@ -2,8 +2,7 @@
   "icon": "sun",
   "tags": [
     "productivity",
-    "automation",
-    "scheduling"
+    "automation"
   ],
   "integrations": [
     "gmail",

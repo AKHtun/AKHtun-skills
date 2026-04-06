@@ -1,9 +1,8 @@
 {
   "icon": "globe",
   "tags": [
-    "email",
-    "calendar",
-    "integration"
+    "entertainment",
+    "utility"
   ],
   "integrations": [
     "gmail",

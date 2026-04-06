@@ -1,9 +1,7 @@
 {
   "icon": "notion",
   "tags": [
-    "productivity",
-    "integration",
-    "content"
+    "productivity"
   ],
   "integrations": [
     "notion"

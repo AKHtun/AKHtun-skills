@@ -1,9 +1,8 @@
 {
   "icon": "bell",
   "tags": [
-    "productivity",
-    "automation",
-    "scheduling"
+    "wellness",
+    "automation"
   ],
   "integrations": [
     "google_calendar",

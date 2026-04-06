@@ -1,9 +1,8 @@
 {
   "icon": "chart-bar",
   "tags": [
-    "data",
-    "infrastructure",
-    "monitoring"
+    "server",
+    "data"
   ],
   "integrations": [
     "grafana"

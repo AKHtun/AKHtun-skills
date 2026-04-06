@@ -1,9 +1,7 @@
 {
   "icon": "share",
   "tags": [
-    "productivity",
-    "infrastructure",
-    "collaboration"
+    "utility"
   ],
   "integrations": [
     "gmail"

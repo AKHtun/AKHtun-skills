@@ -1,9 +1,7 @@
 {
   "icon": "phone",
   "tags": [
-    "voice",
-    "ai",
-    "automation"
+    "ai"
   ],
   "integrations": [
     "google_calendar"

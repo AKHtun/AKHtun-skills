@@ -1,9 +1,7 @@
 {
   "icon": "github",
   "tags": [
-    "development",
-    "integration",
-    "productivity"
+    "developer-tools"
   ],
   "integrations": [
     "github"

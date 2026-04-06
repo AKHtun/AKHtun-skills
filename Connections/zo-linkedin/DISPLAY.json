@@ -1,9 +1,7 @@
 {
   "icon": "linkedin",
   "tags": [
-    "social",
-    "integration",
-    "productivity"
+    "social"
   ],
   "integrations": [
     "linkedin"

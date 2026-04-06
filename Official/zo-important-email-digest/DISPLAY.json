@@ -1,9 +1,8 @@
 {
   "icon": "mail",
   "tags": [
-    "email",
-    "automation",
-    "productivity"
+    "communication",
+    "automation"
   ],
   "integrations": [
     "gmail"

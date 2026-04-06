@@ -1,9 +1,8 @@
 {
   "icon": "stripe",
   "tags": [
-    "development",
     "finance",
-    "integration"
+    "developer-tools"
   ],
   "integrations": [
     "stripe"

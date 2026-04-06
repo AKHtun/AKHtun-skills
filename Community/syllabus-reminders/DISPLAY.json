@@ -1,9 +1,8 @@
 {
   "icon": "calendar",
   "tags": [
-    "learning",
-    "automation",
-    "calendar"
+    "education",
+    "automation"
   ],
   "integrations": [
     "google_calendar"
