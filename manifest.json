@@ -11,6 +11,15 @@
         "category": "Official",
         "display-name": "MoonPay Auth"
       },
+      "display": {
+        "icon": "wallet",
+        "tags": [
+          "finance"
+        ],
+        "integrations": [
+          "moonpay"
+        ]
+      },
       "slug": "zo-moonpay-auth",
       "path": "Official/zo-moonpay-auth",
       "date_added": "2026-04-04"
@@ -23,6 +32,15 @@
         "author": "Zo",
         "category": "Official",
         "display-name": "MoonPay Buy Crypto"
+      },
+      "display": {
+        "icon": "wallet",
+        "tags": [
+          "finance"
+        ],
+        "integrations": [
+          "moonpay"
+        ]
       },
       "slug": "zo-moonpay-buy-crypto",
       "path": "Official/zo-moonpay-buy-crypto",
@@ -37,6 +55,15 @@
         "category": "Official",
         "display-name": "MoonPay Wallet Check"
       },
+      "display": {
+        "icon": "wallet",
+        "tags": [
+          "finance"
+        ],
+        "integrations": [
+          "moonpay"
+        ]
+      },
       "slug": "zo-moonpay-check-wallet",
       "path": "Official/zo-moonpay-check-wallet",
       "date_added": "2026-04-04"
@@ -50,6 +77,15 @@
         "category": "Official",
         "display-name": "MoonPay Swap Tokens"
       },
+      "display": {
+        "icon": "wallet",
+        "tags": [
+          "finance"
+        ],
+        "integrations": [
+          "moonpay"
+        ]
+      },
       "slug": "zo-moonpay-swap-tokens",
       "path": "Official/zo-moonpay-swap-tokens",
       "date_added": "2026-04-04"
@@ -62,6 +98,15 @@
         "author": "Zo",
         "category": "Official",
         "display-name": "MoonPay Virtual Account"
+      },
+      "display": {
+        "icon": "wallet",
+        "tags": [
+          "finance"
+        ],
+        "integrations": [
+          "moonpay"
+        ]
       },
       "slug": "zo-moonpay-virtual-account",
       "path": "Official/zo-moonpay-virtual-account",
@@ -78,6 +123,16 @@
         "version": "1.2.8",
         "homepage": "https://www.okx.com"
       },
+      "display": {
+        "icon": "chart-candlestick",
+        "tags": [
+          "finance",
+          "data"
+        ],
+        "integrations": [
+          "okx"
+        ]
+      },
       "slug": "zo-okx-cex-market",
       "path": "Official/zo-okx-cex-market",
       "date_added": "2026-04-04"
@@ -92,6 +147,15 @@
         "display-name": "OKX Portfolio",
         "version": "1.2.8",
         "homepage": "https://www.okx.com"
+      },
+      "display": {
+        "icon": "briefcase",
+        "tags": [
+          "finance"
+        ],
+        "integrations": [
+          "okx"
+        ]
       },
       "slug": "zo-okx-cex-portfolio",
       "path": "Official/zo-okx-cex-portfolio",
@@ -108,6 +172,15 @@
         "version": "1.2.8",
         "homepage": "https://www.okx.com"
       },
+      "display": {
+        "icon": "arrow-left-right",
+        "tags": [
+          "finance"
+        ],
+        "integrations": [
+          "okx"
+        ]
+      },
       "slug": "zo-okx-cex-trade",
       "path": "Official/zo-okx-cex-trade",
       "date_added": "2026-04-04"
@@ -118,6 +191,14 @@
       "compatibility": "Created for Zo Computer",
       "metadata": {
         "author": "hatsunemiku.zo.computer"
+      },
+      "display": {
+        "icon": "gamepad-2",
+        "image": "assets/minecraft.png",
+        "tags": [
+          "entertainment",
+          "server"
+        ]
       },
       "slug": "minecraft-server",
       "path": "Community/minecraft-server",
@@ -131,6 +212,12 @@
         "author": "skeletorjs",
         "origin": "Adapted from Claude Code skill by same author"
       },
+      "display": {
+        "icon": "bug",
+        "tags": [
+          "developer-tools"
+        ]
+      },
       "slug": "code-degunker",
       "path": "Community/code-degunker",
       "date_added": "2026-03-12"
@@ -142,6 +229,12 @@
       "metadata": {
         "author": "skeletorjs"
       },
+      "display": {
+        "icon": "minimize-2",
+        "tags": [
+          "developer-tools"
+        ]
+      },
       "slug": "simplify",
       "path": "Community/simplify",
       "date_added": "2026-03-12"
@@ -152,6 +245,13 @@
       "compatibility": "Created for Zo Computer",
       "metadata": {
         "author": "skeletorjs"
+      },
+      "display": {
+        "icon": "layout",
+        "tags": [
+          "education",
+          "media"
+        ]
       },
       "slug": "visual-explainer",
       "path": "Community/visual-explainer",
@@ -167,6 +267,13 @@
         "display-name": "Install OpenClaw on Zo",
         "tags": "openclaw, agent, tailscale, personal-agent, framework"
       },
+      "display": {
+        "icon": "bot",
+        "tags": [
+          "ai",
+          "developer-tools"
+        ]
+      },
       "slug": "zopenclaw",
       "path": "Community/zopenclaw",
       "date_added": "2026-03-12"
@@ -177,6 +284,12 @@
       "compatibility": "Created for Zo Computer",
       "metadata": {
         "author": "rc2.zo.computer"
+      },
+      "display": {
+        "icon": "share-2",
+        "tags": [
+          "utility"
+        ]
       },
       "slug": "share-skill",
       "path": "Community/share-skill",
@@ -190,6 +303,12 @@
         "author": "skeletorjs.zo.computer",
         "version": 1
       },
+      "display": {
+        "icon": "presentation",
+        "tags": [
+          "design"
+        ]
+      },
       "slug": "revealjs-presentation",
       "path": "Community/revealjs-presentation",
       "date_added": "2026-02-22"
@@ -201,6 +320,13 @@
       "metadata": {
         "author": "skeletorjs.zo.computer",
         "version": "1.0"
+      },
+      "display": {
+        "icon": "package",
+        "tags": [
+          "developer-tools",
+          "utility"
+        ]
       },
       "slug": "zopack",
       "path": "Community/zopack",
@@ -214,6 +340,13 @@
         "author": "curtastrophe",
         "category": "Community"
       },
+      "display": {
+        "icon": "plug",
+        "tags": [
+          "automation",
+          "developer-tools"
+        ]
+      },
       "slug": "mcporter-setup",
       "path": "Community/mcporter-setup",
       "date_added": "2026-02-20"
@@ -225,6 +358,13 @@
       "metadata": {
         "author": "davidj.zo.computer",
         "category": "Community"
+      },
+      "display": {
+        "icon": "server",
+        "tags": [
+          "developer-tools",
+          "automation"
+        ]
       },
       "slug": "exe-dev",
       "path": "Community/exe-dev",
@@ -238,6 +378,12 @@
         "author": "skeletorjs",
         "category": "Community"
       },
+      "display": {
+        "icon": "book-open",
+        "tags": [
+          "developer-tools"
+        ]
+      },
       "slug": "context7",
       "path": "Community/context7",
       "date_added": "2026-02-17"
@@ -249,6 +395,14 @@
       "metadata": {
         "author": "skeletorjs",
         "category": "Community"
+      },
+      "display": {
+        "icon": "pause",
+        "tags": [
+          "automation",
+          "communication",
+          "productivity"
+        ]
       },
       "slug": "handoff",
       "path": "Community/handoff",
@@ -269,6 +423,13 @@
         "Grep",
         "Glob"
       ],
+      "display": {
+        "icon": "pen-line",
+        "tags": [
+          "content",
+          "utility"
+        ]
+      },
       "slug": "humanizer",
       "path": "Community/humanizer",
       "date_added": "2026-02-17"
@@ -280,6 +441,14 @@
       "metadata": {
         "author": "skeletorjs",
         "category": "Community"
+      },
+      "display": {
+        "icon": "notebook-pen",
+        "tags": [
+          "automation",
+          "content",
+          "wellness"
+        ]
       },
       "slug": "journal",
       "path": "Community/journal",
@@ -293,6 +462,14 @@
         "author": "skeletorjs",
         "category": "Community"
       },
+      "display": {
+        "icon": "bar-chart-3",
+        "tags": [
+          "data",
+          "marketing",
+          "research"
+        ]
+      },
       "slug": "market-research",
       "path": "Community/market-research",
       "date_added": "2026-02-17"
@@ -304,6 +481,17 @@
       "metadata": {
         "author": "skeletorjs",
         "category": "Community"
+      },
+      "display": {
+        "icon": "bell",
+        "tags": [
+          "wellness",
+          "automation"
+        ],
+        "integrations": [
+          "google_calendar",
+          "google_tasks"
+        ]
       },
       "slug": "midday-checkin",
       "path": "Community/midday-checkin",
@@ -317,6 +505,18 @@
         "author": "skeletorjs",
         "category": "Community"
       },
+      "display": {
+        "icon": "sun",
+        "tags": [
+          "productivity",
+          "automation"
+        ],
+        "integrations": [
+          "gmail",
+          "google_calendar",
+          "google_tasks"
+        ]
+      },
       "slug": "morning-briefing",
       "path": "Community/morning-briefing",
       "date_added": "2026-02-17"
@@ -328,6 +528,14 @@
       "metadata": {
         "author": "skeletorjs",
         "category": "Community"
+      },
+      "display": {
+        "icon": "sparkles",
+        "tags": [
+          "ai",
+          "automation",
+          "productivity"
+        ]
       },
       "slug": "self-improvement",
       "path": "Community/self-improvement",
@@ -341,6 +549,13 @@
         "author": "skeletorjs",
         "category": "Community"
       },
+      "display": {
+        "icon": "search",
+        "tags": [
+          "marketing",
+          "data"
+        ]
+      },
       "slug": "seo-data",
       "path": "Community/seo-data",
       "date_added": "2026-02-17"
@@ -352,6 +567,14 @@
       "metadata": {
         "author": "skeletorjs",
         "category": "Community"
+      },
+      "display": {
+        "icon": "brain",
+        "image": "assets/supermemory.png",
+        "tags": [
+          "ai",
+          "data"
+        ]
       },
       "slug": "supermemory",
       "path": "Community/supermemory",
@@ -365,6 +588,14 @@
         "author": "skeletorjs",
         "category": "Community"
       },
+      "display": {
+        "icon": "globe",
+        "tags": [
+          "automation",
+          "data",
+          "web"
+        ]
+      },
       "slug": "web-scraper",
       "path": "Community/web-scraper",
       "date_added": "2026-02-17"
@@ -376,6 +607,14 @@
       "metadata": {
         "author": "skeletorjs",
         "category": "Community"
+      },
+      "display": {
+        "icon": "database",
+        "tags": [
+          "automation",
+          "data",
+          "utility"
+        ]
       },
       "slug": "zo-dataset-creator",
       "path": "Community/zo-dataset-creator",
@@ -390,6 +629,13 @@
         "version": "1.0",
         "category": "Community"
       },
+      "display": {
+        "icon": "rocket",
+        "tags": [
+          "developer-tools",
+          "web"
+        ]
+      },
       "slug": "zo-space",
       "path": "Community/zo-space",
       "date_added": "2026-02-17"
@@ -403,6 +649,13 @@
         "display-name": "Claude Code Window Primer",
         "emoji": "⏰"
       },
+      "display": {
+        "icon": "clock",
+        "tags": [
+          "automation",
+          "productivity"
+        ]
+      },
       "slug": "claude-code-window-primer",
       "path": "Community/claude-code-window-primer",
       "date_added": "2026-02-12"
@@ -414,6 +667,17 @@
       "metadata": {
         "author": "anonymous"
       },
+      "display": {
+        "icon": "phone",
+        "tags": [
+          "ai",
+          "automation",
+          "productivity"
+        ],
+        "integrations": [
+          "google_calendar"
+        ]
+      },
       "slug": "vapi",
       "path": "Community/vapi",
       "date_added": "2026-02-12"
@@ -423,6 +687,13 @@
       "description": "Improve and optimize prompts for Claude using Anthropic's official best practices and the 5-Element Persona Framework. Use when asked to improve, refine, optimize, or review a prompt. Also triggers on requests to make prompts clearer, more effective, better structured, or to get better/more realistic outputs from Claude. Covers Claude 4.x-specific techniques, persona engineering, constraint-based prompting, and structured outputs.",
       "metadata": {
         "author": "skeletorjs"
+      },
+      "display": {
+        "icon": "sparkles",
+        "tags": [
+          "ai",
+          "content"
+        ]
       },
       "slug": "prompt-improver",
       "path": "Community/prompt-improver",
@@ -438,6 +709,14 @@
         "display-name": "Tweetscape Narrator",
         "emoji": "🎬"
       },
+      "display": {
+        "icon": "film",
+        "tags": [
+          "automation",
+          "media",
+          "social"
+        ]
+      },
       "slug": "tweetscape-narrator",
       "path": "Community/tweetscape-narrator",
       "date_added": "2026-02-06"
@@ -450,6 +729,16 @@
         "author": "0.zo.computer",
         "category": "Official"
       },
+      "display": {
+        "icon": "share",
+        "tags": [
+          "automation",
+          "utility"
+        ],
+        "integrations": [
+          "gmail"
+        ]
+      },
       "slug": "zo-file-share",
       "path": "Official/zo-file-share",
       "date_added": "2026-02-04"
@@ -460,6 +749,15 @@
       "metadata": {
         "author": "Moltbot",
         "category": "External"
+      },
+      "display": {
+        "icon": "message-circle",
+        "tags": [
+          "documents"
+        ],
+        "integrations": [
+          "moltbook"
+        ]
       },
       "slug": "moltbook",
       "path": "External/moltbook",
@@ -474,6 +772,17 @@
         "display-name": "Post to X (Twitter)",
         "emoji": "🐦"
       },
+      "display": {
+        "icon": "x",
+        "tags": [
+          "automation",
+          "developer-tools",
+          "social"
+        ],
+        "integrations": [
+          "x"
+        ]
+      },
       "slug": "twitter-api",
       "path": "Community/twitter-api",
       "date_added": "2026-02-01"
@@ -486,6 +795,13 @@
         "category": "Community",
         "display-name": "Texting positive affirmations daily",
         "emoji": "✨"
+      },
+      "display": {
+        "icon": "sparkles",
+        "tags": [
+          "wellness",
+          "automation"
+        ]
       },
       "slug": "daily-affirmations",
       "path": "Community/daily-affirmations",
@@ -500,6 +816,12 @@
         "display-name": "Create ideal dating profile",
         "emoji": "💌"
       },
+      "display": {
+        "icon": "heart",
+        "tags": [
+          "content"
+        ]
+      },
       "slug": "dating-profile",
       "path": "Community/dating-profile",
       "date_added": "2026-01-27"
@@ -512,6 +834,13 @@
         "category": "Community",
         "display-name": "Find recent Craigslist missed connections",
         "emoji": "💕"
+      },
+      "display": {
+        "icon": "search",
+        "tags": [
+          "automation",
+          "social"
+        ]
       },
       "slug": "find-missed-connections",
       "path": "Community/find-missed-connections",
@@ -526,6 +855,13 @@
         "display-name": "Generate QR code with optional image",
         "emoji": "📱"
       },
+      "display": {
+        "icon": "qr-code",
+        "tags": [
+          "design",
+          "utility"
+        ]
+      },
       "slug": "generate-custom-qr-code",
       "path": "Community/generate-custom-qr-code",
       "date_added": "2026-01-27"
@@ -538,6 +874,16 @@
         "author": "rob.zo.computer",
         "category": "Community",
         "emoji": "🅖"
+      },
+      "display": {
+        "icon": "calendar",
+        "tags": [
+          "productivity",
+          "automation"
+        ],
+        "integrations": [
+          "google_calendar"
+        ]
       },
       "slug": "google-calendar",
       "path": "Community/google-calendar",
@@ -552,6 +898,13 @@
         "display-name": "Genome Analysis",
         "emoji": "🧬"
       },
+      "display": {
+        "icon": "dna",
+        "tags": [
+          "research",
+          "wellness"
+        ]
+      },
       "slug": "personal-genomics-analysis",
       "path": "Community/personal-genomics-analysis",
       "date_added": "2026-01-27"
@@ -564,6 +917,16 @@
         "category": "Community",
         "display-name": "Create Spotify playlist from Pitchfork Best New Tracks",
         "emoji": "🎵"
+      },
+      "display": {
+        "icon": "spotify",
+        "tags": [
+          "entertainment",
+          "content"
+        ],
+        "integrations": [
+          "spotify"
+        ]
       },
       "slug": "pitchfork-best-tracks",
       "path": "Community/pitchfork-best-tracks",
@@ -578,6 +941,12 @@
         "display-name": "Plan code changes",
         "emoji": "🧑🏻‍💻"
       },
+      "display": {
+        "icon": "code",
+        "tags": [
+          "developer-tools"
+        ]
+      },
       "slug": "plan-code-changes",
       "path": "Community/plan-code-changes",
       "date_added": "2026-01-27"
@@ -590,6 +959,13 @@
         "category": "Community",
         "display-name": "Plant Care Plan",
         "emoji": "🪴"
+      },
+      "display": {
+        "icon": "leaf",
+        "tags": [
+          "automation",
+          "utility"
+        ]
       },
       "slug": "plant-care-plan",
       "path": "Community/plant-care-plan",
@@ -604,6 +980,13 @@
         "display-name": "Set up automated receipt processing system",
         "emoji": "🧾"
       },
+      "display": {
+        "icon": "receipt",
+        "tags": [
+          "finance",
+          "automation"
+        ]
+      },
       "slug": "receipt-tracker-setup",
       "path": "Community/receipt-tracker-setup",
       "date_added": "2026-01-27"
@@ -616,6 +999,12 @@
         "category": "Community",
         "display-name": "Remove Photo Metadata",
         "emoji": "🔒"
+      },
+      "display": {
+        "icon": "shield",
+        "tags": [
+          "utility"
+        ]
       },
       "slug": "remove-photo-metadata",
       "path": "Community/remove-photo-metadata",
@@ -630,6 +1019,13 @@
         "display-name": "Summarize Hacker News front page",
         "emoji": "🔶"
       },
+      "display": {
+        "icon": "globe",
+        "tags": [
+          "automation",
+          "content"
+        ]
+      },
       "slug": "summarize-hacker-news",
       "path": "Community/summarize-hacker-news",
       "date_added": "2026-01-27"
@@ -642,6 +1038,16 @@
         "category": "Community",
         "display-name": "Create syllabus reminders",
         "emoji": "🔖"
+      },
+      "display": {
+        "icon": "calendar",
+        "tags": [
+          "education",
+          "automation"
+        ],
+        "integrations": [
+          "google_calendar"
+        ]
       },
       "slug": "syllabus-reminders",
       "path": "Community/syllabus-reminders",
@@ -656,6 +1062,13 @@
         "display-name": "Text commute travel time and route",
         "emoji": "🚏"
       },
+      "display": {
+        "icon": "map-pin",
+        "tags": [
+          "automation",
+          "utility"
+        ]
+      },
       "slug": "text-commute-info",
       "path": "Community/text-commute-info",
       "date_added": "2026-01-27"
@@ -668,6 +1081,12 @@
         "category": "Official",
         "display-name": "Automate something",
         "emoji": "⚙️"
+      },
+      "display": {
+        "icon": "zap",
+        "tags": [
+          "automation"
+        ]
       },
       "slug": "zo-automate-something",
       "path": "Official/zo-automate-something",
@@ -682,6 +1101,13 @@
         "display-name": "Create a blog",
         "emoji": "📝"
       },
+      "display": {
+        "icon": "pen-tool",
+        "tags": [
+          "content",
+          "web"
+        ]
+      },
       "slug": "zo-blog-site",
       "path": "Official/zo-blog-site",
       "date_added": "2026-01-27"
@@ -694,6 +1120,13 @@
         "category": "Official",
         "display-name": "Set up code-server (VS Code in browser)",
         "emoji": "💻"
+      },
+      "display": {
+        "icon": "terminal",
+        "tags": [
+          "developer-tools",
+          "server"
+        ]
       },
       "slug": "zo-code-server-setup",
       "path": "Official/zo-code-server-setup",
@@ -708,6 +1141,12 @@
         "display-name": "Create a site",
         "emoji": "⚡"
       },
+      "display": {
+        "icon": "globe",
+        "tags": [
+          "web"
+        ]
+      },
       "slug": "zo-create-site",
       "path": "Official/zo-create-site",
       "date_added": "2026-01-27"
@@ -720,6 +1159,12 @@
         "category": "Official",
         "display-name": "Create a slide deck",
         "emoji": "🎞️"
+      },
+      "display": {
+        "icon": "presentation",
+        "tags": [
+          "design"
+        ]
       },
       "slug": "zo-create-slidedeck",
       "path": "Official/zo-create-slidedeck",
@@ -734,6 +1179,16 @@
         "display-name": "Daily Linear digest",
         "emoji": "📋"
       },
+      "display": {
+        "icon": "linear",
+        "tags": [
+          "productivity",
+          "automation"
+        ],
+        "integrations": [
+          "linear"
+        ]
+      },
       "slug": "zo-daily-linear-digest",
       "path": "Official/zo-daily-linear-digest",
       "date_added": "2026-01-27"
@@ -746,6 +1201,13 @@
         "category": "Official",
         "display-name": "Daily news digest",
         "emoji": "📰"
+      },
+      "display": {
+        "icon": "newspaper",
+        "tags": [
+          "content",
+          "automation"
+        ]
       },
       "slug": "zo-daily-news-digest",
       "path": "Official/zo-daily-news-digest",
@@ -760,6 +1222,14 @@
         "display-name": "Enrich CSV with AI-generated columns",
         "emoji": "📊"
       },
+      "display": {
+        "icon": "table",
+        "tags": [
+          "automation",
+          "data",
+          "utility"
+        ]
+      },
       "slug": "zo-enrich-csv",
       "path": "Official/zo-enrich-csv",
       "date_added": "2026-01-27"
@@ -772,6 +1242,13 @@
         "category": "Official",
         "display-name": "Convert EPUB to Markdown",
         "emoji": "📚"
+      },
+      "display": {
+        "icon": "book",
+        "tags": [
+          "documents",
+          "utility"
+        ]
       },
       "slug": "zo-epub-to-markdown",
       "path": "Official/zo-epub-to-markdown",
@@ -786,6 +1263,13 @@
         "display-name": "Extract Text from Images (OCR)",
         "emoji": "🔍"
       },
+      "display": {
+        "icon": "scan",
+        "tags": [
+          "media",
+          "utility"
+        ]
+      },
       "slug": "zo-extract-text-from-image",
       "path": "Official/zo-extract-text-from-image",
       "date_added": "2026-01-27"
@@ -798,6 +1282,13 @@
         "category": "Official",
         "display-name": "Process file line-by-line with script",
         "emoji": "🔄"
+      },
+      "display": {
+        "icon": "repeat",
+        "tags": [
+          "automation",
+          "data"
+        ]
       },
       "slug": "zo-for-each-line",
       "path": "Official/zo-for-each-line",
@@ -812,6 +1303,13 @@
         "display-name": "Generate PDF from Markdown",
         "emoji": "📑"
       },
+      "display": {
+        "icon": "file-text",
+        "tags": [
+          "documents",
+          "utility"
+        ]
+      },
       "slug": "zo-generate-pdf",
       "path": "Official/zo-generate-pdf",
       "date_added": "2026-01-27"
@@ -824,6 +1322,16 @@
         "author": "Zo",
         "category": "Official",
         "emoji": "🅖"
+      },
+      "display": {
+        "icon": "key",
+        "tags": [
+          "developer-tools"
+        ],
+        "integrations": [
+          "gmail",
+          "google_calendar"
+        ]
       },
       "slug": "zo-google-direct-oauth",
       "path": "Official/zo-google-direct-oauth",
@@ -838,6 +1346,16 @@
         "display-name": "Set up Grafana for log visualization",
         "emoji": "📈"
       },
+      "display": {
+        "icon": "chart-bar",
+        "tags": [
+          "server",
+          "data"
+        ],
+        "integrations": [
+          "grafana"
+        ]
+      },
       "slug": "zo-grafana-setup",
       "path": "Official/zo-grafana-setup",
       "date_added": "2026-01-27"
@@ -851,6 +1369,13 @@
         "display-name": "Create a guestbook",
         "emoji": "📖"
       },
+      "display": {
+        "icon": "book",
+        "tags": [
+          "web",
+          "social"
+        ]
+      },
       "slug": "zo-guestbook-site",
       "path": "Official/zo-guestbook-site",
       "date_added": "2026-01-27"
@@ -863,6 +1388,16 @@
         "category": "Official",
         "display-name": "Text summary of important emails",
         "emoji": "📧"
+      },
+      "display": {
+        "icon": "mail",
+        "tags": [
+          "communication",
+          "automation"
+        ],
+        "integrations": [
+          "gmail"
+        ]
       },
       "slug": "zo-important-email-digest",
       "path": "Official/zo-important-email-digest",
@@ -878,6 +1413,16 @@
         "category": "Connections",
         "display-name": "LinkedIn"
       },
+      "display": {
+        "icon": "linkedin",
+        "tags": [
+          "automation",
+          "social"
+        ],
+        "integrations": [
+          "linkedin"
+        ]
+      },
       "slug": "zo-linkedin",
       "path": "Connections/zo-linkedin",
       "date_added": "2026-01-27"
@@ -889,6 +1434,16 @@
         "author": "Zo",
         "category": "Official",
         "display-name": "Find meetings with attendees"
+      },
+      "display": {
+        "icon": "calendar",
+        "tags": [
+          "automation",
+          "productivity"
+        ],
+        "integrations": [
+          "google_calendar"
+        ]
       },
       "slug": "zo-meeting-list",
       "path": "Official/zo-meeting-list",
@@ -903,6 +1458,16 @@
         "display-name": "Set up n8n workflow automation",
         "emoji": "🔗"
       },
+      "display": {
+        "icon": "zap",
+        "tags": [
+          "automation",
+          "server"
+        ],
+        "integrations": [
+          "n8n"
+        ]
+      },
       "slug": "zo-n8n-setup",
       "path": "Official/zo-n8n-setup",
       "date_added": "2026-01-27"
@@ -915,6 +1480,14 @@
         "category": "Official",
         "display-name": "Organize my files",
         "emoji": "🗂️"
+      },
+      "display": {
+        "icon": "folder",
+        "tags": [
+          "automation",
+          "productivity",
+          "utility"
+        ]
       },
       "slug": "zo-organize-workspace",
       "path": "Official/zo-organize-workspace",
@@ -929,6 +1502,13 @@
         "display-name": "Convert PDF to Markdown",
         "emoji": "📄"
       },
+      "display": {
+        "icon": "file-text",
+        "tags": [
+          "documents",
+          "utility"
+        ]
+      },
       "slug": "zo-pdf-to-markdown",
       "path": "Official/zo-pdf-to-markdown",
       "date_added": "2026-01-27"
@@ -941,6 +1521,13 @@
         "category": "Official",
         "display-name": "Create a portfolio site",
         "emoji": "🎨"
+      },
+      "display": {
+        "icon": "globe",
+        "tags": [
+          "web",
+          "design"
+        ]
       },
       "slug": "zo-portfolio-site",
       "path": "Official/zo-portfolio-site",
@@ -955,6 +1542,13 @@
         "display-name": "Research a topic",
         "emoji": "🔬"
       },
+      "display": {
+        "icon": "search",
+        "tags": [
+          "research",
+          "automation"
+        ]
+      },
       "slug": "zo-research-topic",
       "path": "Official/zo-research-topic",
       "date_added": "2026-01-27"
@@ -967,6 +1561,14 @@
         "category": "Official",
         "display-name": "Resize Images",
         "emoji": "🖼️"
+      },
+      "display": {
+        "icon": "image",
+        "tags": [
+          "automation",
+          "media",
+          "utility"
+        ]
       },
       "slug": "zo-resize-image",
       "path": "Official/zo-resize-image",
@@ -981,6 +1583,13 @@
         "display-name": "Set up SSH server for remote access",
         "emoji": "🔐"
       },
+      "display": {
+        "icon": "terminal",
+        "tags": [
+          "developer-tools",
+          "server"
+        ]
+      },
       "slug": "zo-ssh-setup",
       "path": "Official/zo-ssh-setup",
       "date_added": "2026-01-27"
@@ -993,6 +1602,16 @@
         "author": "Zo",
         "category": "Connections",
         "display-name": "X (Twitter)"
+      },
+      "display": {
+        "icon": "x",
+        "tags": [
+          "automation",
+          "social"
+        ],
+        "integrations": [
+          "x"
+        ]
       },
       "slug": "zo-twitter",
       "path": "Connections/zo-twitter",
@@ -1007,6 +1626,16 @@
         "display-name": "Weekly meeting reminder",
         "emoji": "🗓️"
       },
+      "display": {
+        "icon": "calendar",
+        "tags": [
+          "productivity",
+          "automation"
+        ],
+        "integrations": [
+          "google_calendar"
+        ]
+      },
       "slug": "zo-weekly-meeting-reminder",
       "path": "Official/zo-weekly-meeting-reminder",
       "date_added": "2026-01-27"
@@ -1017,6 +1646,13 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "split",
+        "tags": [
+          "marketing",
+          "developer-tools"
+        ]
       },
       "slug": "ab-test-setup",
       "path": "External/ab-test-setup",
@@ -1032,6 +1668,14 @@
         "display-name": "Generate flashcards from a webpage or document",
         "emoji": "📇"
       },
+      "display": {
+        "icon": "book",
+        "tags": [
+          "automation",
+          "education",
+          "utility"
+        ]
+      },
       "slug": "add-flashcards",
       "path": "Community/add-flashcards",
       "date_added": "2026-01-26"
@@ -1045,6 +1689,13 @@
         "category": "External",
         "display-name": "Generate Algorithmic Art"
       },
+      "display": {
+        "icon": "palette",
+        "tags": [
+          "design",
+          "media"
+        ]
+      },
       "slug": "algorithmic-art",
       "path": "External/algorithmic-art",
       "date_added": "2026-01-26"
@@ -1055,6 +1706,13 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "chart-bar",
+        "tags": [
+          "data",
+          "marketing"
+        ]
       },
       "slug": "analytics-tracking",
       "path": "External/analytics-tracking",
@@ -1089,6 +1747,13 @@
         },
         "display-name": "Blog Watcher"
       },
+      "display": {
+        "icon": "rss",
+        "tags": [
+          "content",
+          "automation"
+        ]
+      },
       "slug": "blogwatcher",
       "path": "External/blogwatcher",
       "date_added": "2026-01-26"
@@ -1100,6 +1765,12 @@
         "author": "Obra",
         "category": "External",
         "display-name": "Brainstorming Expert"
+      },
+      "display": {
+        "icon": "brain",
+        "tags": [
+          "productivity"
+        ]
       },
       "slug": "brainstorming",
       "path": "External/brainstorming",
@@ -1113,6 +1784,13 @@
         "author": "Anthropic",
         "category": "External"
       },
+      "display": {
+        "icon": "palette",
+        "tags": [
+          "design",
+          "marketing"
+        ]
+      },
       "slug": "brand-guidelines",
       "path": "External/brand-guidelines",
       "date_added": "2026-01-26"
@@ -1125,6 +1803,13 @@
         "author": "Anthropic",
         "category": "External"
       },
+      "display": {
+        "icon": "pen-tool",
+        "tags": [
+          "design",
+          "media"
+        ]
+      },
       "slug": "canvas-design",
       "path": "External/canvas-design",
       "date_added": "2026-01-26"
@@ -1135,6 +1820,13 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "users",
+        "tags": [
+          "research",
+          "marketing"
+        ]
       },
       "slug": "competitor-alternatives",
       "path": "External/competitor-alternatives",
@@ -1148,6 +1840,12 @@
         "category": "External",
         "display-name": "Copy Editing Expert"
       },
+      "display": {
+        "icon": "file-text",
+        "tags": [
+          "content"
+        ]
+      },
       "slug": "copy-editing",
       "path": "External/copy-editing",
       "date_added": "2026-01-26"
@@ -1160,6 +1858,13 @@
         "category": "External",
         "display-name": "Copywriting Expert"
       },
+      "display": {
+        "icon": "pen-tool",
+        "tags": [
+          "content",
+          "marketing"
+        ]
+      },
       "slug": "copywriting",
       "path": "External/copywriting",
       "date_added": "2026-01-26"
@@ -1170,6 +1875,13 @@
       "metadata": {
         "author": "Anthropic",
         "category": "External"
+      },
+      "display": {
+        "icon": "file-text",
+        "tags": [
+          "content",
+          "productivity"
+        ]
       },
       "slug": "doc-coauthoring",
       "path": "External/doc-coauthoring",
@@ -1204,6 +1916,17 @@
         },
         "display-name": "EightSleep Pod Control"
       },
+      "display": {
+        "icon": "bed",
+        "tags": [
+          "automation",
+          "developer-tools",
+          "server"
+        ],
+        "integrations": [
+          "eightsleep"
+        ]
+      },
       "slug": "eightctl",
       "path": "External/eightctl",
       "date_added": "2026-01-26"
@@ -1214,6 +1937,14 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "mail",
+        "tags": [
+          "communication",
+          "marketing",
+          "automation"
+        ]
       },
       "slug": "email-sequence",
       "path": "External/email-sequence",
@@ -1226,6 +1957,13 @@
         "author": "Coreyhaines31",
         "category": "External"
       },
+      "display": {
+        "icon": "layout",
+        "tags": [
+          "marketing",
+          "web"
+        ]
+      },
       "slug": "form-cro",
       "path": "External/form-cro",
       "date_added": "2026-01-26"
@@ -1236,6 +1974,12 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "wrench",
+        "tags": [
+          "marketing"
+        ]
       },
       "slug": "free-tool-strategy",
       "path": "External/free-tool-strategy",
@@ -1248,6 +1992,13 @@
       "metadata": {
         "author": "Anthropic",
         "category": "External"
+      },
+      "display": {
+        "icon": "layout",
+        "tags": [
+          "design",
+          "web"
+        ]
       },
       "slug": "frontend-design",
       "path": "External/frontend-design",
@@ -1280,6 +2031,16 @@
           ]
         },
         "display-name": "GitHub"
+      },
+      "display": {
+        "icon": "github",
+        "tags": [
+          "automation",
+          "developer-tools"
+        ],
+        "integrations": [
+          "github"
+        ]
       },
       "slug": "github",
       "path": "External/github",
@@ -1314,6 +2075,19 @@
         },
         "display-name": "Google Workspace Tool"
       },
+      "display": {
+        "icon": "globe",
+        "tags": [
+          "automation",
+          "productivity",
+          "utility"
+        ],
+        "integrations": [
+          "gmail",
+          "google_calendar",
+          "google_drive"
+        ]
+      },
       "slug": "gog",
       "path": "External/gog",
       "date_added": "2026-01-26"
@@ -1327,6 +2101,13 @@
         "display-name": "Set up hashcards spaced repetition system",
         "emoji": "📇"
       },
+      "display": {
+        "icon": "book",
+        "tags": [
+          "education",
+          "server"
+        ]
+      },
       "slug": "hashcards-setup",
       "path": "Community/hashcards-setup",
       "date_added": "2026-01-26"
@@ -1338,6 +2119,13 @@
       "metadata": {
         "author": "Anthropic",
         "category": "External"
+      },
+      "display": {
+        "icon": "megaphone",
+        "tags": [
+          "communication",
+          "content"
+        ]
       },
       "slug": "internal-comms",
       "path": "External/internal-comms",
@@ -1352,6 +2140,12 @@
         "display-name": "Help me cancel my subscriptions"
       },
       "attribution": "Originally created by rohunvora (https://github.com/rohunvora/just-fucking-cancel)",
+      "display": {
+        "icon": "scissors",
+        "tags": [
+          "utility"
+        ]
+      },
       "slug": "just-fucking-cancel",
       "path": "External/just-fucking-cancel",
       "date_added": "2026-01-26"
@@ -1364,6 +2158,16 @@
         "category": "External",
         "display-name": "Access Last.fm data using an API key (free)"
       },
+      "display": {
+        "icon": "lastfm",
+        "tags": [
+          "entertainment",
+          "data"
+        ],
+        "integrations": [
+          "lastfm"
+        ]
+      },
       "slug": "lastfm",
       "path": "External/lastfm",
       "date_added": "2026-01-26"
@@ -1374,6 +2178,12 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "rocket",
+        "tags": [
+          "marketing"
+        ]
       },
       "slug": "launch-strategy",
       "path": "External/launch-strategy",
@@ -1387,6 +2197,14 @@
         "category": "External",
         "display-name": "Create 3Blue1Brown Videos (Manim)"
       },
+      "display": {
+        "icon": "video",
+        "video": "assets/manim-composer.mp4",
+        "tags": [
+          "media",
+          "education"
+        ]
+      },
       "slug": "manim-composer",
       "path": "External/manim-composer",
       "date_added": "2026-01-26"
@@ -1397,6 +2215,13 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "lightbulb",
+        "tags": [
+          "marketing",
+          "content"
+        ]
       },
       "slug": "marketing-ideas",
       "path": "External/marketing-ideas",
@@ -1410,6 +2235,13 @@
         "category": "External",
         "display-name": "Marketing Psychology & Mental Models"
       },
+      "display": {
+        "icon": "brain",
+        "tags": [
+          "marketing",
+          "content"
+        ]
+      },
       "slug": "marketing-psychology",
       "path": "External/marketing-psychology",
       "date_added": "2026-01-26"
@@ -1421,6 +2253,13 @@
       "metadata": {
         "author": "Anthropic",
         "category": "External"
+      },
+      "display": {
+        "icon": "box",
+        "tags": [
+          "automation",
+          "developer-tools"
+        ]
       },
       "slug": "mcp-builder",
       "path": "External/mcp-builder",
@@ -1455,6 +2294,13 @@
         },
         "display-name": "Use MCP Server"
       },
+      "display": {
+        "icon": "box",
+        "tags": [
+          "automation",
+          "developer-tools"
+        ]
+      },
       "slug": "mcporter",
       "path": "External/mcporter",
       "date_added": "2026-01-26"
@@ -1466,6 +2312,13 @@
         "author": "Softaworks",
         "category": "External",
         "display-name": "Create Memes"
+      },
+      "display": {
+        "icon": "image",
+        "tags": [
+          "content",
+          "media"
+        ]
       },
       "slug": "meme-factory",
       "path": "External/meme-factory",
@@ -1490,6 +2343,16 @@
         },
         "display-name": "Use Notion"
       },
+      "display": {
+        "icon": "notion",
+        "tags": [
+          "automation",
+          "productivity"
+        ],
+        "integrations": [
+          "notion"
+        ]
+      },
       "slug": "notion",
       "path": "External/notion",
       "date_added": "2026-01-26"
@@ -1500,6 +2363,13 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "user-plus",
+        "tags": [
+          "marketing",
+          "web"
+        ]
       },
       "slug": "onboarding-cro",
       "path": "External/onboarding-cro",
@@ -1512,6 +2382,13 @@
         "author": "Coreyhaines31",
         "category": "External"
       },
+      "display": {
+        "icon": "layout",
+        "tags": [
+          "marketing",
+          "web"
+        ]
+      },
       "slug": "page-cro",
       "path": "External/page-cro",
       "date_added": "2026-01-26"
@@ -1523,6 +2400,12 @@
         "author": "Coreyhaines31",
         "category": "External"
       },
+      "display": {
+        "icon": "megaphone",
+        "tags": [
+          "marketing"
+        ]
+      },
       "slug": "paid-ads",
       "path": "External/paid-ads",
       "date_added": "2026-01-26"
@@ -1533,6 +2416,13 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "credit-card",
+        "tags": [
+          "marketing",
+          "finance"
+        ]
       },
       "slug": "paywall-upgrade-cro",
       "path": "External/paywall-upgrade-cro",
@@ -1547,6 +2437,13 @@
         "category": "External",
         "display-name": "Process PDF Files"
       },
+      "display": {
+        "icon": "file-text",
+        "tags": [
+          "documents",
+          "utility"
+        ]
+      },
       "slug": "pdf",
       "path": "External/pdf",
       "date_added": "2026-01-26"
@@ -1557,6 +2454,13 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "layout",
+        "tags": [
+          "marketing",
+          "web"
+        ]
       },
       "slug": "popup-cro",
       "path": "External/popup-cro",
@@ -1569,6 +2473,13 @@
         "author": "Coreyhaines31",
         "category": "External"
       },
+      "display": {
+        "icon": "dollar-sign",
+        "tags": [
+          "marketing",
+          "finance"
+        ]
+      },
       "slug": "pricing-strategy",
       "path": "External/pricing-strategy",
       "date_added": "2026-01-26"
@@ -1580,6 +2491,13 @@
         "author": "Coreyhaines31",
         "category": "External"
       },
+      "display": {
+        "icon": "search",
+        "tags": [
+          "marketing",
+          "automation"
+        ]
+      },
       "slug": "programmatic-seo",
       "path": "External/programmatic-seo",
       "date_added": "2026-01-26"
@@ -1590,6 +2508,12 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "users",
+        "tags": [
+          "marketing"
+        ]
       },
       "slug": "referral-program",
       "path": "External/referral-program",
@@ -1604,6 +2528,13 @@
         "display-name": "Create Animated Videos (Remotion)",
         "tags": "remotion, video, react, animation, composition"
       },
+      "display": {
+        "icon": "video",
+        "tags": [
+          "media",
+          "developer-tools"
+        ]
+      },
       "slug": "remotion-best-practices",
       "path": "External/remotion-best-practices",
       "date_added": "2026-01-26"
@@ -1614,6 +2545,13 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "code",
+        "tags": [
+          "marketing",
+          "web"
+        ]
       },
       "slug": "schema-markup",
       "path": "External/schema-markup",
@@ -1627,6 +2565,12 @@
         "category": "External",
         "display-name": "SEO Expert"
       },
+      "display": {
+        "icon": "search",
+        "tags": [
+          "marketing"
+        ]
+      },
       "slug": "seo-audit",
       "path": "External/seo-audit",
       "date_added": "2026-01-26"
@@ -1639,6 +2583,13 @@
         "category": "External",
         "display-name": "Shorten URLs"
       },
+      "display": {
+        "icon": "link",
+        "tags": [
+          "utility",
+          "web"
+        ]
+      },
       "slug": "shorten",
       "path": "External/shorten",
       "date_added": "2026-01-26"
@@ -1649,6 +2600,13 @@
       "metadata": {
         "author": "Coreyhaines31",
         "category": "External"
+      },
+      "display": {
+        "icon": "user-plus",
+        "tags": [
+          "marketing",
+          "web"
+        ]
       },
       "slug": "signup-flow-cro",
       "path": "External/signup-flow-cro",
@@ -1661,6 +2619,12 @@
       "metadata": {
         "author": "Anthropic",
         "category": "External"
+      },
+      "display": {
+        "icon": "wrench",
+        "tags": [
+          "developer-tools"
+        ]
       },
       "slug": "skill-creator",
       "path": "External/skill-creator",
@@ -1675,6 +2639,16 @@
         "category": "External",
         "display-name": "Create Animated GIFs for Slack"
       },
+      "display": {
+        "icon": "image",
+        "tags": [
+          "communication",
+          "media"
+        ],
+        "integrations": [
+          "slack"
+        ]
+      },
       "slug": "slack-gif-creator",
       "path": "External/slack-gif-creator",
       "date_added": "2026-01-26"
@@ -1686,6 +2660,14 @@
         "author": "Coreyhaines31",
         "category": "External",
         "display-name": "Social Content Expert"
+      },
+      "display": {
+        "icon": "share-2",
+        "tags": [
+          "social",
+          "content",
+          "marketing"
+        ]
       },
       "slug": "social-content",
       "path": "External/social-content",
@@ -1699,6 +2681,16 @@
         "category": "External",
         "display-name": "Stripe Best Practices"
       },
+      "display": {
+        "icon": "stripe",
+        "tags": [
+          "finance",
+          "developer-tools"
+        ],
+        "integrations": [
+          "stripe"
+        ]
+      },
       "slug": "stripe-best-practices",
       "path": "External/stripe-best-practices",
       "date_added": "2026-01-26"
@@ -1709,6 +2701,12 @@
       "metadata": {
         "author": "Anthropic",
         "category": "External"
+      },
+      "display": {
+        "icon": "file-text",
+        "tags": [
+          "developer-tools"
+        ]
       },
       "slug": "template-skill",
       "path": "External/template-skill",
@@ -1723,6 +2721,12 @@
         "category": "External",
         "display-name": "Font & Color Theme Builder"
       },
+      "display": {
+        "icon": "palette",
+        "tags": [
+          "design"
+        ]
+      },
       "slug": "theme-factory",
       "path": "External/theme-factory",
       "date_added": "2026-01-26"
@@ -1733,6 +2737,13 @@
       "metadata": {
         "author": "Cloudai-x",
         "category": "External"
+      },
+      "display": {
+        "icon": "box",
+        "tags": [
+          "media",
+          "developer-tools"
+        ]
       },
       "slug": "threejs-animation",
       "path": "External/threejs-animation",
@@ -1745,6 +2756,13 @@
         "author": "Cloudai-x",
         "category": "External"
       },
+      "display": {
+        "icon": "box",
+        "tags": [
+          "media",
+          "developer-tools"
+        ]
+      },
       "slug": "threejs-fundamentals",
       "path": "External/threejs-fundamentals",
       "date_added": "2026-01-26"
@@ -1755,6 +2773,13 @@
       "metadata": {
         "author": "Cloudai-x",
         "category": "External"
+      },
+      "display": {
+        "icon": "box",
+        "tags": [
+          "media",
+          "developer-tools"
+        ]
       },
       "slug": "threejs-geometry",
       "path": "External/threejs-geometry",
@@ -1767,6 +2792,13 @@
         "author": "Cloudai-x",
         "category": "External"
       },
+      "display": {
+        "icon": "mouse-pointer",
+        "tags": [
+          "media",
+          "developer-tools"
+        ]
+      },
       "slug": "threejs-interaction",
       "path": "External/threejs-interaction",
       "date_added": "2026-01-26"
@@ -1777,6 +2809,13 @@
       "metadata": {
         "author": "Cloudai-x",
         "category": "External"
+      },
+      "display": {
+        "icon": "sun",
+        "tags": [
+          "media",
+          "developer-tools"
+        ]
       },
       "slug": "threejs-lighting",
       "path": "External/threejs-lighting",
@@ -1789,6 +2828,13 @@
         "author": "Cloudai-x",
         "category": "External"
       },
+      "display": {
+        "icon": "download",
+        "tags": [
+          "media",
+          "developer-tools"
+        ]
+      },
       "slug": "threejs-loaders",
       "path": "External/threejs-loaders",
       "date_added": "2026-01-26"
@@ -1799,6 +2845,13 @@
       "metadata": {
         "author": "Cloudai-x",
         "category": "External"
+      },
+      "display": {
+        "icon": "layers",
+        "tags": [
+          "media",
+          "developer-tools"
+        ]
       },
       "slug": "threejs-materials",
       "path": "External/threejs-materials",
@@ -1811,6 +2864,13 @@
         "author": "Cloudai-x",
         "category": "External"
       },
+      "display": {
+        "icon": "sliders",
+        "tags": [
+          "media",
+          "developer-tools"
+        ]
+      },
       "slug": "threejs-postprocessing",
       "path": "External/threejs-postprocessing",
       "date_added": "2026-01-26"
@@ -1822,6 +2882,13 @@
         "author": "Cloudai-x",
         "category": "External"
       },
+      "display": {
+        "icon": "code",
+        "tags": [
+          "media",
+          "developer-tools"
+        ]
+      },
       "slug": "threejs-shaders",
       "path": "External/threejs-shaders",
       "date_added": "2026-01-26"
@@ -1832,6 +2899,13 @@
       "metadata": {
         "author": "Cloudai-x",
         "category": "External"
+      },
+      "display": {
+        "icon": "image",
+        "tags": [
+          "media",
+          "developer-tools"
+        ]
       },
       "slug": "threejs-textures",
       "path": "External/threejs-textures",
@@ -1858,6 +2932,12 @@
         },
         "display-name": "Control tmux sessions"
       },
+      "display": {
+        "icon": "terminal",
+        "tags": [
+          "developer-tools"
+        ]
+      },
       "slug": "tmux",
       "path": "External/tmux",
       "date_added": "2026-01-26"
@@ -1883,6 +2963,16 @@
           }
         },
         "display-name": "Use Trello"
+      },
+      "display": {
+        "icon": "trello",
+        "tags": [
+          "automation",
+          "productivity"
+        ],
+        "integrations": [
+          "trello"
+        ]
       },
       "slug": "trello",
       "path": "External/trello",
@@ -1917,6 +3007,13 @@
         },
         "display-name": "Video Frames (FFmpeg)"
       },
+      "display": {
+        "icon": "film",
+        "tags": [
+          "media",
+          "utility"
+        ]
+      },
       "slug": "video-frames",
       "path": "External/video-frames",
       "date_added": "2026-01-26"
@@ -1939,6 +3036,12 @@
         },
         "display-name": "Weather"
       },
+      "display": {
+        "icon": "cloud",
+        "tags": [
+          "utility"
+        ]
+      },
       "slug": "weather",
       "path": "External/weather",
       "date_added": "2026-01-26"
@@ -1951,6 +3054,13 @@
         "author": "Anthropic",
         "category": "External"
       },
+      "display": {
+        "icon": "layout",
+        "tags": [
+          "developer-tools",
+          "web"
+        ]
+      },
       "slug": "web-artifacts-builder",
       "path": "External/web-artifacts-builder",
       "date_added": "2026-01-26"
@@ -1962,6 +3072,12 @@
       "metadata": {
         "author": "Anthropic",
         "category": "External"
+      },
+      "display": {
+        "icon": "check-circle",
+        "tags": [
+          "developer-tools"
+        ]
       },
       "slug": "webapp-testing",
       "path": "External/webapp-testing",
