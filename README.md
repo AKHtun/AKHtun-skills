@@ -9,8 +9,9 @@ Inside Zo, you can browse all the skills in this registry and install them for y
 If it's your own skill
 
 1. Add a new skill to the `Community` folder
-2. Run `bun validate` 
-3. Make a pull request
+2. Add a `DISPLAY.json` alongside your `SKILL.md` for UI presentation metadata (icon, tags, integrations, etc.) — see the [DISPLAY.json spec](DISPLAY.md)
+3. Run `bun validate` 
+4. Make a pull request
 
 If it's a skill you found, look it up in the [Agent Skills Registry](https://skills.sh)
 
@@ -35,6 +36,7 @@ slug="bird"; dest="Skills"; manifest_url="https://raw.githubusercontent.com/zoco
 - Skills live under `Zo/`, `External/`, or `Community/`, each containing a required `SKILL.md`.
 - Allowed subdirectories: `assets/`, `references/`, `scripts/`.
 - `SKILL.md` frontmatter must include `name`, `description`, and `metadata.author`.
+- `DISPLAY.json` alongside `SKILL.md` provides presentation metadata (icon, image, video, tags, integrations). See the [spec](DISPLAY.md) for the full schema.
 
 ## External Skills
 
