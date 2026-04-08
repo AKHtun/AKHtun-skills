@@ -562,8 +562,8 @@
     },
     {
       "name": "supermemory",
-      "description": "Long-term memory that persists across conversations. Save facts, decisions, and preferences to a knowledge graph that builds a living profile of the user over time. Replaces static user docs with dynamic context that grows and self-corrects.\n",
-      "compatibility": "Created for Zo Computer",
+      "description": "Long-term memory for AI agents via Supermemory's knowledge graph API. Primary CLI is `npx supermemory`; companion script covers conversation ingestion and memory listing not yet in the official CLI.\n",
+      "compatibility": "Any machine with Node.js (npx) and SUPERMEMORY_API_KEY",
       "metadata": {
         "author": "skeletorjs",
         "category": "Community"
