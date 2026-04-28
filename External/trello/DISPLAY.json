@@ -5,11 +5,11 @@
   "secrets": [
     {
       "secret_name": "TRELLO_API_KEY",
-      "description": "Get one at trello.com/power-ups/admin (Power-Up › API key)."
+      "description": "Get one at trello.com/app-key."
     },
     {
       "secret_name": "TRELLO_TOKEN",
-      "description": "Generate from the same Power-Up admin page after creating the API key."
+      "description": "Click the \"Token\" link on trello.com/app-key after creating the API key."
     }
   ]
 }
