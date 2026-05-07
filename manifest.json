@@ -3,6 +3,19 @@
   "archive_root": "skills-main",
   "skills": [
     {
+      "name": "sec-edgar",
+      "description": "Natural-language SEC filing intelligence — fetch, index, search, and analyze SEC EDGAR filings for any public company via conversation. Built on the PageIndex vectorless RAG methodology.",
+      "compatibility": "Created for Zo Computer",
+      "metadata": {
+        "author": "cis.zo.computer",
+        "category": "External",
+        "display-name": "SEC Intelligence"
+      },
+      "slug": "sec-edgar",
+      "path": "External/sec-edgar",
+      "date_added": "2026-05-07"
+    },
+    {
       "name": "moonpay-auth",
       "description": "Set up the MoonPay CLI on Zo, authenticate the current user, and create or inspect local wallets. Use when MoonPay commands fail because the user is not logged in, when a wallet is missing, or when a MoonPay flow needs login completed before continuing.",
       "compatibility": "Created for Zo Computer",
