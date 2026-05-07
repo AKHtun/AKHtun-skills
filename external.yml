@@ -1,3 +1,23 @@
+- repository: jingerzz/clarion-intelligence-system
+  skill: clarion-setup
+- repository: jingerzz/clarion-intelligence-system
+  skill: clarion-regime-check
+- repository: jingerzz/clarion-intelligence-system
+  skill: clarion-sec-research
+- repository: jingerzz/clarion-intelligence-system
+  skill: clarion-single-stock-eval
+- repository: jingerzz/clarion-intelligence-system
+  skill: clarion-expected-return-calc
+- repository: jingerzz/clarion-intelligence-system
+  skill: clarion-thesis-write
+- repository: jingerzz/clarion-intelligence-system
+  skill: clarion-thesis-monitor
+- repository: jingerzz/clarion-intelligence-system
+  skill: clarion-value-screener
+- repository: jingerzz/clarion-intelligence-system
+  skill: clarion-watchlist-update
+- repository: jingerzz/clarion-intelligence-system
+  skill: clarion-living-letter-update
 - repository: clawdbot/clawdbot
   skill: gog
   description: Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs
