@@ -3,6 +3,136 @@
   "archive_root": "skills-main",
   "skills": [
     {
+      "name": "clarion-expected-return-calc",
+      "description": "Compute the equity-vs-T-bill allocation for the Value bucket (50% of portfolio). Implements the Expected-Return Framework — looks up the historical 10-year forward return from the S&P 500 Shiller CAPE, computes the regime-adjusted hurdle (rf + regime premium), and produces a 5-tier verdict (STRONG EQUITY / LEAN EQUITY / NEUTRAL / LEAN T-BILLS / MAXIMUM T-BILLS) with recommended Value-bucket equity/T-bill split. Use when the user asks \"should I be in stocks or bonds right now?\", \"what's the equity hurdle?\", \"is the market overvalued?\", \"what's the right Value bucket allocation?\", or before adding any new equity to the Value bucket. Requires clarion-setup to have been run.",
+      "metadata": {
+        "author": "cis.zo.computer",
+        "category": "External",
+        "display-name": "Clarion Expected Return",
+        "homepage": "https://github.com/jingerzz/clarion-intelligence-system"
+      },
+      "slug": "clarion-expected-return-calc",
+      "path": "External/clarion-expected-return-calc",
+      "date_added": "2026-05-08"
+    },
+    {
+      "name": "clarion-living-letter-update",
+      "description": "Update the annual investor letter at ~/clarion/letters/{YEAR}-letter.md with a new quarterly section, or finalize it at year-end. Auto-fills the system-deterministic parts (regime snapshot, thesis health table, portfolio bucket positions from active theses); marks the narrative-heavy parts (What We Did, What We Learned, Year in Context, Mistakes & Lessons, Looking Ahead) as [TODO] for the user to write with chat assistance. Append-only — refuses to overwrite an already-populated quarter without --force. Use when the user asks \"update the letter\", \"quarterly letter update\", \"finalize the letter\", or \"write the {Q1/Q2/Q3/Q4} entry\". Requires clarion-setup to have been run.",
+      "metadata": {
+        "author": "cis.zo.computer",
+        "category": "External",
+        "display-name": "Clarion Living Letter",
+        "homepage": "https://github.com/jingerzz/clarion-intelligence-system"
+      },
+      "slug": "clarion-living-letter-update",
+      "path": "External/clarion-living-letter-update",
+      "date_added": "2026-05-08"
+    },
+    {
+      "name": "clarion-regime-check",
+      "description": "Reads the SPY/TLT/RSP color regime and the equity hurdle rate. Use when the user asks about the market regime, risk-on / risk-off, market color, SPY/TLT regime, breadth, or what hurdle rate to use for new positions. Pulls daily bars via yfinance (cached locally). Optionally accepts a 1Y T-bill yield to compute the equity hurdle rate. Requires clarion-setup to have been run.",
+      "metadata": {
+        "author": "cis.zo.computer",
+        "category": "External",
+        "display-name": "Clarion Regime Check",
+        "homepage": "https://github.com/jingerzz/clarion-intelligence-system"
+      },
+      "slug": "clarion-regime-check",
+      "path": "External/clarion-regime-check",
+      "date_added": "2026-05-08"
+    },
+    {
+      "name": "clarion-sec-research",
+      "description": "Pull, index, and search SEC EDGAR filings for any public company. Supports 10-K and 10-Q (annual/quarterly with curated section extraction for risk factors, MD&A, business, and financials), Form 3/4/5 (insider transactions), 8-K (material events), DEF 14A (proxy/governance), S-1 (IPO/registration), 20-F (foreign private issuers), and any other SEC form by name. Use when the user asks about a company's SEC filings, risk factors, MD&A, insider transactions, executive compensation, business description, or wants to analyze a specific filing in plain English. Single ticker or multiple tickers (comma-separated). On first request for a ticker+form, indexing happens in the background (1-5 min). Subsequent queries are fast. Requires clarion-setup to have been run.",
+      "metadata": {
+        "author": "cis.zo.computer",
+        "category": "External",
+        "display-name": "Clarion SEC Research",
+        "homepage": "https://github.com/jingerzz/clarion-intelligence-system"
+      },
+      "slug": "clarion-sec-research",
+      "path": "External/clarion-sec-research",
+      "date_added": "2026-05-08"
+    },
+    {
+      "name": "clarion-setup",
+      "description": "Bootstraps the Clarion Intelligence System on Zo Computer. Run this once after installing the skill — clones the source repo, installs the ai_buffett_zo Python library, creates the ~/clarion/ workspace, writes default config, and registers the sec-indexer background service. Idempotent (safe to re-run). Use when the user asks to \"set up Clarion\", \"install Clarion\", or after they install any other clarion-* skill before it has been bootstrapped.",
+      "metadata": {
+        "author": "cis.zo.computer",
+        "category": "External",
+        "display-name": "Clarion Setup",
+        "homepage": "https://github.com/jingerzz/clarion-intelligence-system"
+      },
+      "slug": "clarion-setup",
+      "path": "External/clarion-setup",
+      "date_added": "2026-05-08"
+    },
+    {
+      "name": "clarion-single-stock-eval",
+      "description": "Evaluate a single stock using the Buffett lens. Pulls a quality snapshot from yfinance, current SPY/TLT regime context, and snippets from the indexed SEC filings across four dimensions (moat, management, financial trends, risks). The chat agent reasons over the structured output to produce a written evaluation. Use when the user says \"evaluate <TICKER>\", \"is <TICKER> a buy?\", \"Buffett evaluation of <TICKER>\", \"what's <TICKER>'s moat?\", or asks about a specific company's management, financials, or risks. Requires clarion-setup to have been run, and the ticker to be indexed first via clarion-sec-research.",
+      "metadata": {
+        "author": "cis.zo.computer",
+        "category": "External",
+        "display-name": "Clarion Single-Stock Eval",
+        "homepage": "https://github.com/jingerzz/clarion-intelligence-system"
+      },
+      "slug": "clarion-single-stock-eval",
+      "path": "External/clarion-single-stock-eval",
+      "date_added": "2026-05-08"
+    },
+    {
+      "name": "clarion-thesis-monitor",
+      "description": "Monitor the health of every active thesis in ~/clarion/theses/. For each one — refresh price, recompute Risk Environment from the current regime, check kill conditions (read from the file's status column), aggregate to an Overall score, recommend an action (EXIT / REDUCE / HOLD / ADD), and write the updated scores + history back to the thesis file. Produces a dashboard surfacing what needs attention. Use when the user asks \"monitor my theses\", \"thesis health check\", \"any kill conditions triggered?\", \"what's the action on <TICKER>\", or as part of a daily / weekly review. Requires clarion-setup to have been run.",
+      "metadata": {
+        "author": "cis.zo.computer",
+        "category": "External",
+        "display-name": "Clarion Thesis Monitor",
+        "homepage": "https://github.com/jingerzz/clarion-intelligence-system"
+      },
+      "slug": "clarion-thesis-monitor",
+      "path": "External/clarion-thesis-monitor",
+      "date_added": "2026-05-08"
+    },
+    {
+      "name": "clarion-thesis-write",
+      "description": "Scaffold a new thesis document for a ticker in the canonical Clarion thesis format. Pre-fills the YAML metadata block, opens the History with an OPENED entry, and (when filings are indexed) seeds the \"Why I Believe It\" evidence section with draft citations from the Buffett-lens search. The user fills in the actual prose. Outputs a markdown file at ~/clarion/theses/{TICKER}.md. Use when the user says \"write a thesis on <TICKER>\", \"scaffold a thesis for <TICKER>\", \"draft a thesis for <TICKER>\", or after clarion-single-stock-eval returns an Add verdict and the user wants to formalize the position. Requires clarion-setup to have been run.",
+      "metadata": {
+        "author": "cis.zo.computer",
+        "category": "External",
+        "display-name": "Clarion Thesis Write",
+        "homepage": "https://github.com/jingerzz/clarion-intelligence-system"
+      },
+      "slug": "clarion-thesis-write",
+      "path": "External/clarion-thesis-write",
+      "date_added": "2026-05-08"
+    },
+    {
+      "name": "clarion-value-screener",
+      "description": "Run a value-quality screen and write a watchlist file. The script accepts either a list of tickers (fundamentals fetched from yfinance) or a JSON input file the chat agent prepared from a screener site (multpl.com, finviz, Yardeni, etc.). Computes the 8-factor composite score (P/E, P/FCF, ROE, ROIC, Operating Margin, D/E, Profit Margin, Insider) per docs/ALLOCATION-POLICY.md, applies regime-tightened thresholds, and produces a sector-capped Top-10 watchlist. Saves to ~/clarion/watchlists/sp500-screen-YYYY-MM-DD.md. Use when the user asks \"run a value screen\", \"screen the S&P 500\", \"screen these tickers <list>\", or after market drawdowns / regime changes. Requires clarion-setup to have been run.",
+      "metadata": {
+        "author": "cis.zo.computer",
+        "category": "External",
+        "display-name": "Clarion Value Screener",
+        "homepage": "https://github.com/jingerzz/clarion-intelligence-system"
+      },
+      "slug": "clarion-value-screener",
+      "path": "External/clarion-value-screener",
+      "date_added": "2026-05-08"
+    },
+    {
+      "name": "clarion-watchlist-update",
+      "description": "Refresh prices on the latest watchlist and surface what's moved, what's hit triggers, and what's stale. Reads ~/clarion/watchlists/sp500-screen-LATEST.md, fetches current prices for every ticker via yfinance, computes % move since the screen, and flags large moves (>10% in either direction) as worth attention. Also reads ~/clarion/theses/ for status:watchlist theses and shows their current price vs cost basis. Use when the user asks \"what's hit my watchlist?\", \"watchlist update\", \"anything moving on my watchlist?\", or \"is anything close to a trigger?\". Read-only — does not modify the watchlist file. Requires clarion-setup to have been run.",
+      "metadata": {
+        "author": "cis.zo.computer",
+        "category": "External",
+        "display-name": "Clarion Watchlist Update",
+        "homepage": "https://github.com/jingerzz/clarion-intelligence-system"
+      },
+      "slug": "clarion-watchlist-update",
+      "path": "External/clarion-watchlist-update",
+      "date_added": "2026-05-08"
+    },
+    {
       "name": "sec-edgar",
       "description": "Natural-language SEC filing intelligence — fetch, index, search, and analyze SEC EDGAR filings for any public company via conversation. Built on the PageIndex vectorless RAG methodology.",
       "compatibility": "Created for Zo Computer",
