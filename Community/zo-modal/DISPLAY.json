@@ -1,0 +1,10 @@
+{
+  "icon": "cpu",
+  "tags": [
+    "gpu",
+    "inference",
+    "fine-tuning",
+    "infrastructure",
+    "serverless"
+  ]
+}
